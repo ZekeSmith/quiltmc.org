@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-04-20T15:38:41+00:00</updated><id>/feed.xml</id><title type="html">The Quilt Project</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Test Page</title><link href="/blog/2021/02/13/test-page.html" rel="alternate" type="text/html" title="Test Page" /><published>2021-02-13T16:00:00+00:00</published><updated>2021-02-13T16:00:00+00:00</updated><id>/blog/2021/02/13/test-page</id><content type="html" xml:base="/blog/2021/02/13/test-page.html">&lt;p&gt;This is a page for testing things.&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam posuere sed arcu
+nec hendrerit. Praesent felis tellus, mollis vel lacus ac, viverra tristique
+turpis. Donec est sem, imperdiet sed nibh at, aliquet pulvinar sem. Donec
+mollis metus vitae nisi porta maximus. Donec elit lacus, fermentum at cursus a,
+scelerisque nec lorem. Vestibulum dictum neque eu quam mollis, nec mattis dui
+dignissim. Praesent pharetra mauris et massa elementum, at mattis mauris
+rhoncus. Praesent rutrum condimentum leo, sed venenatis turpis eleifend ut.
+Fusce id vestibulum massa. Donec ac ligula non risus pharetra lobortis. Nulla
+ac ullamcorper orci. Ut in risus quis metus tempus ultrices. Aenean arcu
+turpis, maximus vitae lobortis vitae, varius id sapien. Curabitur eu ex sit
+amet arcu lobortis mattis et sit amet neque. Suspendisse porta turpis nec eros
+placerat vulputate.&lt;/p&gt;
+
+&lt;p&gt;Fusce erat leo, facilisis id tortor sed, elementum malesuada quam. Duis vitae
+pellentesque metus, vel hendrerit urna. Praesent lacinia turpis ut efficitur
+dignissim. Vestibulum bibendum gravida accumsan. Nunc ornare, ante at hendrerit
+bibendum, mauris erat tempus sem, vitae fermentum orci justo euismod turpis.
+Aenean dignissim, justo id rutrum rutrum, lacus dolor euismod risus, eget
+posuere lacus enim porta purus. Curabitur sagittis accumsan mauris, quis
+elementum tortor tristique at. Integer dignissim erat nec fermentum auctor.
+Vivamus eu interdum massa, id placerat est. Pellentesque sed posuere orci.
+Mauris a magna a est suscipit euismod eu a risus. Phasellus convallis est quis
+augue bibendum molestie. In et odio sed magna pretium ultrices ut at ex.
+Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
+cubilia curae; Suspendisse potenti.&lt;/p&gt;
+
+&lt;p&gt;Phasellus accumsan nisl vitae felis egestas varius. Nullam metus quam,
+imperdiet nec lorem vitae, bibendum congue dui. Donec volutpat ipsum vitae orci
+tincidunt, id vulputate arcu tincidunt. Sed quam turpis, consectetur eget
+sapien eu, maximus lacinia mi. Curabitur luctus ipsum nec pellentesque
+bibendum. Maecenas luctus nisl eget sapien varius viverra. Suspendisse potenti.
+Ut eu lectus lacinia, sollicitudin metus in, elementum ipsum. Phasellus
+faucibus egestas quam, tempor rutrum arcu fringilla non. Sed in tellus tortor.
+Praesent congue posuere dictum. Integer aliquam laoreet auctor.&lt;/p&gt;
+
+&lt;p&gt;Pellentesque fermentum sodales mattis. Sed laoreet suscipit urna, a vulputate
+lectus venenatis quis. Etiam vitae mollis tellus. Suspendisse id consectetur
+urna, vel gravida nisi. Morbi a ultrices lectus, et tristique nibh. In eu porta
+erat, ut luctus lectus. Ut auctor eros sit amet cursus consequat. Morbi vel
+arcu in mi feugiat tincidunt nec id nunc. Nam dapibus nisi sed eros dapibus, at
+cursus dolor condimentum. Fusce ultrices, dui eu ultrices dictum, nisi massa
+semper sem, at aliquam leo augue vitae nisi. Proin porttitor neque tellus, non
+sagittis nunc dapibus ut. Donec ipsum purus, feugiat vel enim id, luctus
+vestibulum justo. Fusce blandit turpis et elit mattis tristique. Sed sed massa
+arcu. Nam mattis luctus eleifend.&lt;/p&gt;
+
+&lt;p&gt;Duis quis luctus sapien. Vivamus blandit lorem a mauris vehicula, eget varius
+ex mollis. Nulla mattis eros vitae massa viverra, id elementum eros pharetra.
+Quisque sit amet pretium arcu, lacinia laoreet tortor. Donec nec lectus egestas
+ex rutrum laoreet. Fusce eu mattis nibh, ut ultrices purus. Integer eu volutpat
+lacus, id dictum urna. Cras id vestibulum lorem.&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam posuere sed arcu nec hendrerit. Praesent felis tellus, mollis vel lacus ac, viverra tristique turpis. Donec est sem, imperdiet sed nibh at, aliquet pulvinar sem. Donec mollis metus vitae nisi porta maximus. Donec elit lacus, fermentum at cursus a, scelerisque nec lorem. Vestibulum dictum neque eu quam mollis, nec mattis dui dignissim. Praesent pharetra mauris et massa elementum, at mattis mauris rhoncus. Praesent rutrum condimentum leo, sed venenatis turpis eleifend ut. Fusce id vestibulum massa. Donec ac ligula non risus pharetra lobortis. Nulla ac ullamcorper orci. Ut in risus quis metus tempus ultrices. Aenean arcu turpis, maximus vitae lobortis vitae, varius id sapien. Curabitur eu ex sit amet arcu lobortis mattis et sit amet neque. Suspendisse porta turpis nec eros placerat vulputate.&lt;/p&gt;
+
+&lt;p&gt;Fusce erat leo, facilisis id tortor sed, elementum malesuada quam. Duis vitae pellentesque metus, vel hendrerit urna. Praesent lacinia turpis ut efficitur dignissim. Vestibulum bibendum gravida accumsan. Nunc ornare, ante at hendrerit bibendum, mauris erat tempus sem, vitae fermentum orci justo euismod turpis. Aenean dignissim, justo id rutrum rutrum, lacus dolor euismod risus, eget posuere lacus enim porta purus. Curabitur sagittis accumsan mauris, quis elementum tortor tristique at. Integer dignissim erat nec fermentum auctor. Vivamus eu interdum massa, id placerat est. Pellentesque sed posuere orci. Mauris a magna a est suscipit euismod eu a risus. Phasellus convallis est quis augue bibendum molestie. In et odio sed magna pretium ultrices ut at ex. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Suspendisse potenti.&lt;/p&gt;
+
+&lt;p&gt;Phasellus accumsan nisl vitae felis egestas varius. Nullam metus quam, imperdiet nec lorem vitae, bibendum congue dui. Donec volutpat ipsum vitae orci tincidunt, id vulputate arcu tincidunt. Sed quam turpis, consectetur eget sapien eu, maximus lacinia mi. Curabitur luctus ipsum nec pellentesque bibendum. Maecenas luctus nisl eget sapien varius viverra. Suspendisse potenti. Ut eu lectus lacinia, sollicitudin metus in, elementum ipsum. Phasellus faucibus egestas quam, tempor rutrum arcu fringilla non. Sed in tellus tortor. Praesent congue posuere dictum. Integer aliquam laoreet auctor.&lt;/p&gt;
+
+&lt;p&gt;Pellentesque fermentum sodales mattis. Sed laoreet suscipit urna, a vulputate lectus venenatis quis. Etiam vitae mollis tellus. Suspendisse id consectetur urna, vel gravida nisi. Morbi a ultrices lectus, et tristique nibh. In eu porta erat, ut luctus lectus. Ut auctor eros sit amet cursus consequat. Morbi vel arcu in mi feugiat tincidunt nec id nunc. Nam dapibus nisi sed eros dapibus, at cursus dolor condimentum. Fusce ultrices, dui eu ultrices dictum, nisi massa semper sem, at aliquam leo augue vitae nisi. Proin porttitor neque tellus, non sagittis nunc dapibus ut. Donec ipsum purus, feugiat vel enim id, luctus vestibulum justo. Fusce blandit turpis et elit mattis tristique. Sed sed massa arcu. Nam mattis luctus eleifend.&lt;/p&gt;
+
+&lt;p&gt;Duis quis luctus sapien. Vivamus blandit lorem a mauris vehicula, eget varius ex mollis. Nulla mattis eros vitae massa viverra, id elementum eros pharetra. Quisque sit amet pretium arcu, lacinia laoreet tortor. Donec nec lectus egestas ex rutrum laoreet. Fusce eu mattis nibh, ut ultrices purus. Integer eu volutpat lacus, id dictum urna. Cras id vestibulum lorem.&lt;/p&gt;</content><author><name>Mr. Hyde</name></author><summary type="html">This is a page for testing things.</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="/blog/2021/02/13/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2021-02-13T01:45:33+00:00</published><updated>2021-02-13T01:45:33+00:00</updated><id>/blog/2021/02/13/welcome-to-jekyll</id><content type="html" xml:base="/blog/2021/02/13/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;YEAR-MONTH-DAY-title.MARKUP
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Where &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR&lt;/code&gt; is a four-digit number, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MONTH&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DAY&lt;/code&gt; are both two-digit numbers, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MARKUP&lt;/code&gt; is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name>Mr. Hyde</name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>
