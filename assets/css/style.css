@@ -237,7 +237,7 @@ a.button { text-decoration: none; }
 
 .text-cols .column:last-child { margin-right: 0rem; }
 
-@media (max-width: 58rem) { .text-cols { flex-direction: column; } .text-cols .column { margin: 0rem; } }
+@media (max-width: 58rem) { .text-cols { flex-direction: column; } .text-cols .column { margin: 0.5rem 0rem; } .text-cols .column:first-child { margin-top: 0rem; } .text-cols .column:last-child { margin-bottom: 0rem; } }
 
 nav.main { background: #1c1526; }
 
