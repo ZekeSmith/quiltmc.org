@@ -1,6 +1,7 @@
 ---
 title: Test Page
 slug: test
+group: Test Group
 ---
 
 This is a sample wiki page.
