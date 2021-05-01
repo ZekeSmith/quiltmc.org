@@ -1,0 +1,11 @@
+nav.breadcrumbs {
+    &>a {
+        @extend .button;
+    }
+
+    &>.separator {
+        @extend .icon-chevron-right;
+        @extend .size1;
+    }
+}
+
