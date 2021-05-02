@@ -25,6 +25,7 @@
         <link type="application/atom+xml" rel="alternate" href="/feed.xml" title="The Quilt Project" />
 
         <script src="https://kit.fontawesome.com/b1b70f724e.js" crossorigin="anonymous"></script>
+        <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
     </head>
     
     <body class="page preload">
@@ -96,6 +97,13 @@
 </a>
 
         
+        
+<a href="/community/tupperbox.html" class="">
+    
+    Tupperbox
+</a>
+
+        
     </nav>
     <main>
         <h1>Code of Conduct</h1>
@@ -159,6 +167,7 @@ misunderstandings.</p>
   <li>Intentionally dead-naming or misgendering others</li>
   <li>Publishing others’ private information, such as a physical or email address, without their explicit permission
 (“doxxing”)</li>
+  <li>Gatekeeping others’ access to mental health or accessibility tools</li>
   <li>Advocating for, or encouraging, any unacceptable forms of behaviour</li>
   <li>Other conduct which could reasonably be considered inappropriate</li>
 </ul>
@@ -187,8 +196,9 @@ this Code of Conduct when community members violate it in spaces not managed by 
 <h2 id="reporting-a-problem">Reporting a Problem</h2>
 
 <p>Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the Quilt community team 
-directly on Discord. If your report concerns a specific community team member or group of community team members, 
-please send your report to a team member that is not part of the report, or a member of the administrative board.</p>
+directly on Discord, either via private message or the ModMail bot. If your report concerns a specific community team 
+member or group of community team members, please send your report to a team member that is not part of the report, or 
+a member of the administrative board.</p>
 
 <p>All complaints will be reviewed and investigated promptly and fairly, and all team members are obligated to respect the
 privacy and security of the reporter of any incident.</p>
@@ -215,7 +225,7 @@ inspiration and examples taken from the
         <hr />
 
         <div class="wiki-info">
-            <p>Last updated on  April 29, 2021</p>
+            <p>Last updated on  May 2, 2021</p>
         </div>
     </main>
 </div>
@@ -249,10 +259,13 @@ inspiration and examples taken from the
         </footer>
 
         
+
         <script>
             document.addEventListener('DOMContentLoaded', function() {
                 document.body.className = document.body.className.replace("preload", "")
             });
+
+            twemoji.parse(document.body);
         </script>
     </body>
 </html>

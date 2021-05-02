@@ -25,6 +25,7 @@
         <link type="application/atom+xml" rel="alternate" href="/feed.xml" title="The Quilt Project" />
 
         <script src="https://kit.fontawesome.com/b1b70f724e.js" crossorigin="anonymous"></script>
+        <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
     </head>
     
     <body class="page preload">
@@ -96,6 +97,13 @@
 </a>
 
         
+        
+<a href="/community/tupperbox.html" class="">
+    
+    Tupperbox
+</a>
+
+        
     </nav>
     <main>
         <h1>Moderation</h1>
@@ -139,6 +147,12 @@ quality of life for the sake of the Quilt community.</p>
 
 <h2 id="our-hierarchy">Our Hierarchy</h2>
 
+<div class="admonition">
+<p><strong>Note:</strong> All community team members can act as moderators, regardless of their named role. That said, Community
+Moderators are the people you should contact first if there’s a problem - Community Managers should be contacted
+only when Community Moderators are unavailable, or when your concerns relate to a Community Moderator.</p>
+</div>
+
 <p>While all community team members have equal influence, there are two primary roles:</p>
 
 <ul>
@@ -150,26 +164,26 @@ and supporting the community team, maintaining community spaces and automations,
 smoothly. If you have concerns about how the community is run, these are the people you should contact first.</li>
 </ul>
 
-<p><strong>Note:</strong> All community team members can act as moderators, regardless of their named role. That said, Community
-Moderators are the people you should contact first if there’s a problem - Community Managers should be contacted
-only when Community Moderators are unavailable, or when your concerns relate to a Community Moderator.</p>
-
 <p>For more information on how the community team is structured and what processes it follows, please read 
 <a href="https://github.com/QuiltMC/rfcs/blob/master/rfc/0007-community-team.md">RFC 7: Community Team</a>.</p>
 
 <h2 id="discord-moderation-tools">Discord Moderation Tools</h2>
 
-<p>We currently have a fairly lightweight set of tools for moderation, provided by <a href="https://carl.gg/">CarlBot</a>. This bot
-provides a set of standard moderation commands, as well as some lightweight automations. Additionally, we make use of
-<a href="https://panleyent.com/crosslink/">CrossLink</a> to automatically vet and remove links and attachments that are known
-to be problematic or contain viruses.</p>
+<p>We currently have a fairly lightweight set of tools for moderation, provided by <a href="https://zeppelin.gg/">Zeppelin</a>. This 
+bot provides a set of standard moderation commands, as well as some lightweight automations. Additionally, we make use 
+of <a href="https://panleyent.com/crosslink/">CrossLink</a> to automatically vet and remove links and attachments that are known
+to be problematic or contain viruses, and a <a href="https://github.com/kyb3r/modmail">ModMail bot</a> to allow users to contact
+the community team if they need anything.</p>
 
-<p>When issuing infractions, community team members <strong>must</strong> use the CarlBot’s commands. The prefix is <code class="language-plaintext highlighter-rouge">!</code>, and community 
-team members can look at the <code class="language-plaintext highlighter-rouge">!help</code>for the <code class="language-plaintext highlighter-rouge">warn</code>, <code class="language-plaintext highlighter-rouge">mute</code>, <code class="language-plaintext highlighter-rouge">kick</code>, <code class="language-plaintext highlighter-rouge">tempban</code> and <code class="language-plaintext highlighter-rouge">ban</code> commands for more information 
-on how they work.</p>
+<p>When issuing infractions, community team members <strong>must</strong> use Zeppelin’s commands. The prefix is <code class="language-plaintext highlighter-rouge">!!</code>, and community 
+team members can look at <a href="https://zeppelin.gg/docs/plugins/mod_actions/usage">the Zeppelin site</a> for more information 
+on how these commands work.</p>
 
-<p>There are some other useful commands too, such as <code class="language-plaintext highlighter-rouge">purge</code> and <code class="language-plaintext highlighter-rouge">lock</code> - team members should familiarize themselves with 
-CarlBot’s list of commands as soon as they can.</p>
+<p>There are some other useful commands too, such as <code class="language-plaintext highlighter-rouge">clean</code> and <code class="language-plaintext highlighter-rouge">search</code> - team members should familiarize themselves 
+with Zeppelin’s full list of commands as soon as they can.</p>
+
+<p>We also ask that team members familiarize themselves with <a href="https://github.com/Runi-c/Tupperbox">Tupperbox</a>, as there 
+are several people present in our community that make use of it.</p>
 
 <h2 id="discord-infraction-policy">Discord Infraction Policy</h2>
 
@@ -280,7 +294,7 @@ everyone, and we all have a responsibility to do that - not just the community t
         <hr />
 
         <div class="wiki-info">
-            <p>Last updated on  April 29, 2021</p>
+            <p>Last updated on  May 2, 2021</p>
         </div>
     </main>
 </div>
@@ -314,10 +328,13 @@ everyone, and we all have a responsibility to do that - not just the community t
         </footer>
 
         
+
         <script>
             document.addEventListener('DOMContentLoaded', function() {
                 document.body.className = document.body.className.replace("preload", "")
             });
+
+            twemoji.parse(document.body);
         </script>
     </body>
 </html>

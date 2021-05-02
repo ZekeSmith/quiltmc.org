@@ -25,6 +25,7 @@
         <link type="application/atom+xml" rel="alternate" href="/feed.xml" title="The Quilt Project" />
 
         <script src="https://kit.fontawesome.com/b1b70f724e.js" crossorigin="anonymous"></script>
+        <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
     </head>
     
     <body class="page preload">
@@ -95,10 +96,13 @@
         
         <script src="/assets/js/bundle.js"></script>
         
+
         <script>
             document.addEventListener('DOMContentLoaded', function() {
                 document.body.className = document.body.className.replace("preload", "")
             });
+
+            twemoji.parse(document.body);
         </script>
     </body>
 </html>
