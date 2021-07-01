@@ -8,13 +8,25 @@ layout: base
 <div class="content" data-controller="patchnotes">
     <div class="container">
         <div class="sidebar-container">
-            <nav class="sidebar" data-patchnotes-target="vlist">
+            <nav class="expand sidebar"
+                 data-controller="expand"
+                 data-expand-collapse-height-value="20rem">
                 <h1>Versions</h1>
                 <input type="text"
+                       placeholder="Search"
                        data-patchnotes-target="search"
                        data-action="patchnotes#search"
-                       style="margin: 0.5rem 1rem;; margin-top: 0rem;">
+                       style="margin: 0.5rem 1rem; margin-top: 0rem;">
                 <hr style="width: 95%;"/>
+                <div class="inner body"
+                    data-patchnotes-target="vlist"
+                    data-expand-target="body">
+                </div>
+                <a class="expand-arrow"
+                   data-expand-target="arrow"
+                   data-action="expand#toggle">
+                    <i class="fas fa-chevron-up"></i>
+                </a>
             </nav>
             <main>
                 <noscript>

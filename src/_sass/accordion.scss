@@ -1,0 +1,12 @@
+.expand {
+    &>.body {
+        overflow: hidden;
+
+        transition: 0.5s max-height;
+    }
+}
+
+.expand-arrow {
+    text-align: center;
+}
+

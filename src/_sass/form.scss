@@ -1,0 +1,21 @@
+input {
+    border: none;
+    border-radius: 0.2rem;
+
+    font-family: $font-stack;
+    font-size: $font-size;
+
+    padding: 0.3rem;
+
+    color: $base;
+    background-color: adjust-color($button-color, $lightness: -5%);
+    transition: 0.2s background-color, 0.2s box-shadow;
+
+    &:focus {
+        outline: none;
+
+        background-color: $button-color;
+        box-shadow: 1px 2px 2px $shadow-color;
+    }
+}
+

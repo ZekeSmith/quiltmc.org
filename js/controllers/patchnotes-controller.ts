@@ -40,8 +40,7 @@ export default class PatchnotesController extends Controller {
     vlistLinks: Array<{link: HTMLAnchorElement, note: Patchnote}> = []
 
     connect() {
-        this.load_patchnotes()
-        this.render()
+        this.load_patchnotes().then(_ => this.render())
         window.addEventListener("hashchange", this.boundRender)
     }
 
