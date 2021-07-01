@@ -1,6 +1,6 @@
 import { Controller } from "stimulus"
 
-const LOADANI_HTML = '<div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>'
+import { LOADANI_HTML } from "../misc"
 
 // Base "snippet" controller used for controllers that read metadata and update
 // some strings on a page.
