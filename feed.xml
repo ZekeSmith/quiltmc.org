@@ -1,4 +1,85 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-09-19T15:06:32+00:00</updated><id>/feed.xml</id><title type="html">The Quilt Project</title><subtitle>The Quilt project is an open, community-driven modding toolchain designed primarily for Minecraft.</subtitle><entry><title type="html">This is Quilt</title><link href="/blog/2021/04/20/this-is-quilt.html" rel="alternate" type="text/html" title="This is Quilt" /><published>2021-04-20T09:00:00+00:00</published><updated>2021-04-20T09:00:00+00:00</updated><id>/blog/2021/04/20/this-is-quilt</id><content type="html" xml:base="/blog/2021/04/20/this-is-quilt.html">&lt;p&gt;This is the Quilt Project: An open, community-driven modding toolchain designed primarily for Minecraft. Quilt builds on many of the technologies developed by &lt;a href=&quot;https://fabricmc.net/&quot;&gt;the Fabric Project&lt;/a&gt; and is designed to take what worked well and expand on it further.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-09-19T15:29:50+00:00</updated><id>/feed.xml</id><title type="html">The Quilt Project</title><subtitle>The Quilt project is an open, community-driven modding toolchain designed primarily for Minecraft.</subtitle><entry><title type="html">Quilt September Update</title><link href="/blog/2021/09/19/quilt-sept-update.html" rel="alternate" type="text/html" title="Quilt September Update" /><published>2021-09-19T15:00:00+00:00</published><updated>2021-09-19T15:00:00+00:00</updated><id>/blog/2021/09/19/quilt-sept-update</id><content type="html" xml:base="/blog/2021/09/19/quilt-sept-update.html">&lt;p&gt;It has been a few months since the last update on the Quilt Project.&lt;/p&gt;
+
+&lt;p&gt;Quilt has progressed far since that initial “This is Quilt” blog with: new teams set up; several important RFCs being published and developments in many key areas.&lt;/p&gt;
+
+&lt;h2 id=&quot;clean-room-rfc-33&quot;&gt;Clean Room RFC-33&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/QuiltMC/rfcs/blob/master/rfc/0033-quilt-mappings-and-clean-room.md&quot;&gt;RFC-33 has been merged&lt;/a&gt;. This RFC changes how Quilt is dealing with other mappings (such as MojMap, MCP and Yarn).&lt;/p&gt;
+
+&lt;p&gt;Key Take-Aways:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Quilt’s fork of Yarn will be renamed to “Quilt Mappings” (QM)&lt;/li&gt;
+  &lt;li&gt;All restrictions on referencing mappings projects (other than Quilt Mappings) within Quilt’s community and development spaces will be lifted&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The reasoning, possible outcomes, drawbacks and smaller changes are outlined further in the RFC document.&lt;/p&gt;
+
+&lt;h3 id=&quot;quilt-mappings&quot;&gt;Quilt Mappings&lt;/h3&gt;
+&lt;p&gt;As noted above, Quilt Mappings (QM) exist and are open to contributions.&lt;/p&gt;
+
+&lt;h2 id=&quot;quilt-standard-library-qsl&quot;&gt;Quilt Standard Library (QSL)&lt;/h2&gt;
+
+&lt;p&gt;The Quilt Standard Library (Quilt’s separation of the current Fabric API into distinct modules – see &lt;a href=&quot;https://github.com/QuiltMC/rfcs/blob/master/rfc/0009-qsl-structure.md&quot;&gt;RFC-9&lt;/a&gt;), now has the resource loader and base (for events).&lt;/p&gt;
+
+&lt;p&gt;We are looking for help testing the resource loader. This can be done by using the snapshot maven repo with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;org.quiltmc.qsl.core:resource-loader:1.0.0-SNAPSHOT&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;QSL is seeing new additions on top of the reorganization into modules.&lt;/p&gt;
+
+&lt;h2 id=&quot;quilt-mod-json&quot;&gt;Quilt Mod JSON&lt;/h2&gt;
+&lt;p&gt;The Quilt Mod JSON has now been mostly implemented. The design of this is outlined in &lt;a href=&quot;https://github.com/QuiltMC/rfcs/blob/master/specification/0002-quilt.mod.json.md&quot;&gt;RFC-2&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The majority of the work left is smooth out issues in the loader.&lt;/p&gt;
+
+&lt;h2 id=&quot;quiltflower&quot;&gt;QuiltFlower&lt;/h2&gt;
+&lt;p&gt;QuiltFlower (Quilt’s Fork/Maintained version of FernFlower/ForgeFlower) has seen some smaller changes.&lt;/p&gt;
+
+&lt;p&gt;These changes should make de-complied code more readable. An example of this can be seen in the following images:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Output produced by FabricFlower&lt;/strong&gt;
+&lt;img src=&quot;https://i.imgur.com/M81I32X.png&quot; alt=&quot;Output Produced by Fabric Flower&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Same output, produced using QuiltFlower&lt;/strong&gt;
+&lt;img src=&quot;https://i.imgur.com/1ICd4Nb.png&quot; alt=&quot;Same output produced by Quilt Flower&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;new-moderators&quot;&gt;New Moderators&lt;/h2&gt;
+&lt;p&gt;Quilt’s community spaces are always looking for new moderators. If you think you’d be a good fit and like to be involved, you can submit an application via ModMail.&lt;/p&gt;
+
+&lt;p&gt;Some key documents to be aware of &lt;strong&gt;before&lt;/strong&gt; applying:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://quiltmc.org/community/code-of-conduct.html&quot;&gt;The Quilt Code of Conduct&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://quiltmc.org/community/rules.html&quot;&gt;Quilt’s Rules&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://quiltmc.org/community/moderation.html&quot;&gt;Our Moderation Ethos&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/QuiltMC/rfcs/blob/master/structure/0007-community-team.md&quot;&gt;RFC-7 (The Community Team Structure)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If the qualities outlined in the above documents, seem like you… please step forward and apply. The interview process will follow the steps outlined in RFC-7 (TL;DR):&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Apply Via ModMail&lt;/li&gt;
+  &lt;li&gt;Interview with a Community Manager (and the wider Community Team)&lt;/li&gt;
+  &lt;li&gt;Community team holds a vote based on the interview&lt;/li&gt;
+  &lt;li&gt;Result of the vote given to interviewee, and if successful the applicant will become a Trainee Moderator&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;modding-with-quilt--fabric&quot;&gt;Modding with Quilt &amp;amp; Fabric&lt;/h2&gt;
+
+&lt;h3 id=&quot;can-i-mod-with-quilt-at-the-moment&quot;&gt;Can I mod with Quilt at the moment?&lt;/h3&gt;
+
+&lt;p&gt;It is currently not possible to mod with the Quilt framework.&lt;/p&gt;
+
+&lt;p&gt;However, progress has been made. We are currently waiting on a Gradle Plugin.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;We are looking for contributors.&lt;/strong&gt; If you would like to help out with this part of the project, please reach out in &lt;a href=&quot;https://canary.discord.com/channels/833872081585700874/884090296068091965/885866814410723358&quot;&gt;#build-tools-general&lt;/a&gt; and express interest. A member of the relevant team will reach out.&lt;/p&gt;
+
+&lt;h3 id=&quot;are-things-still-compatible-with-fabric&quot;&gt;Are things still compatible with Fabric?&lt;/h3&gt;
+
+&lt;p&gt;Things are largely compatible with loading mods.&lt;/p&gt;
+
+&lt;p&gt;Mixin Plugins may not be possible to maintain compatibility.  We may consider contributing to some mods that use them, to aid in replacing them.&lt;/p&gt;
+
+&lt;h2 id=&quot;round-off&quot;&gt;Round-off&lt;/h2&gt;
+&lt;p&gt;That is all for now! When there are more things to talk about, they will be published here; for more bleeding edge changes and updates on the project, follow along on our &lt;a href=&quot;https://discord.quiltmc.org&quot;&gt;Discords&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Thank-you to the Quilt Project’s team for helping flesh this out; it would have otherwise been just an update on moderators.&lt;/p&gt;</content><author><name>ToffeeMax</name></author><summary type="html">It has been a few months since the last update on the Quilt Project.</summary></entry><entry><title type="html">This is Quilt</title><link href="/blog/2021/04/20/this-is-quilt.html" rel="alternate" type="text/html" title="This is Quilt" /><published>2021-04-20T09:00:00+00:00</published><updated>2021-04-20T09:00:00+00:00</updated><id>/blog/2021/04/20/this-is-quilt</id><content type="html" xml:base="/blog/2021/04/20/this-is-quilt.html">&lt;p&gt;This is the Quilt Project: An open, community-driven modding toolchain designed primarily for Minecraft. Quilt builds on many of the technologies developed by &lt;a href=&quot;https://fabricmc.net/&quot;&gt;the Fabric Project&lt;/a&gt; and is designed to take what worked well and expand on it further.&lt;/p&gt;
 
 &lt;h2 id=&quot;why-the-fork&quot;&gt;Why the Fork?&lt;/h2&gt;
 
