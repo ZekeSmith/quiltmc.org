@@ -1,4 +1,77 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-09-19T15:29:50+00:00</updated><id>/feed.xml</id><title type="html">The Quilt Project</title><subtitle>The Quilt project is an open, community-driven modding toolchain designed primarily for Minecraft.</subtitle><entry><title type="html">Quilt September Update</title><link href="/blog/2021/09/19/quilt-sept-update.html" rel="alternate" type="text/html" title="Quilt September Update" /><published>2021-09-19T15:00:00+00:00</published><updated>2021-09-19T15:00:00+00:00</updated><id>/blog/2021/09/19/quilt-sept-update</id><content type="html" xml:base="/blog/2021/09/19/quilt-sept-update.html">&lt;p&gt;It has been a few months since the last update on the Quilt Project.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-11-10T14:27:59+00:00</updated><id>/feed.xml</id><title type="html">The Quilt Project</title><subtitle>The Quilt project is an open, community-driven modding toolchain designed primarily for Minecraft.</subtitle><entry><title type="html">Quilt’s (VERY LATE) October Update</title><link href="/blog/2021/11/10/quilt-oct-update.html" rel="alternate" type="text/html" title="Quilt’s (VERY LATE) October Update" /><published>2021-11-10T14:00:00+00:00</published><updated>2021-11-10T14:00:00+00:00</updated><id>/blog/2021/11/10/quilt-oct-update</id><content type="html" xml:base="/blog/2021/11/10/quilt-oct-update.html">&lt;p&gt;It is now &lt;em&gt;well&lt;/em&gt; past the End of October and closer to Halloween then I’d like to admit. Here is some of the more fleshed out updates about the Quilt Project:&lt;/p&gt;
+
+&lt;h2 id=&quot;quilt-mappings-are-now-usable-in-loom&quot;&gt;Quilt Mappings are now usable in Loom!&lt;/h2&gt;
+&lt;p&gt;Have you wanted to use mappings other than Yarn or MojMap?&lt;/p&gt;
+
+&lt;p&gt;Quilt Mappings is a Yarn derivative that allows inspiration from MojMap. This allows for Quilt Mappings to map the obscure constants in Minecraft code and more.&lt;/p&gt;
+
+&lt;p&gt;However, this can mean that Quilt Mappings maybe be different from Yarn.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/OroArmor/quilt-mappings-on-loom&quot;&gt;The provided gradle plugin&lt;/a&gt; allows Quilt Mappings to be used in Loom and Fabric environments. Currently, it is 1.17.1+ only; with no plans of backporting to earlier versions.&lt;/p&gt;
+
+&lt;p&gt;Benefits of Quilt Mappings:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Faster turn around.
+    &lt;ul&gt;
+      &lt;li&gt;For the past couple weeks, Quilt Mappings has been out before intermediary. While this doesn’t help too much in loom, it is something to look forward to in the future.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Consistent names.
+    &lt;ul&gt;
+      &lt;li&gt;Quilt Mapping names are never mismatched, meaning you won’t find issues where names swap between versions.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Familiarity of Yarn with the completeness of MojMap.
+    &lt;ul&gt;
+      &lt;li&gt;While not complete, Quilt Mappings has the goal of 100% mapping coverage for Minecraft. Any help toward this goal would be appreciated as well!&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;how-to-use-quilt-mapping-gradle-plugin&quot;&gt;How to use Quilt Mapping (Gradle Plugin)&lt;/h3&gt;
+&lt;p&gt;How to use Quilt Mappings:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;settings.gradle&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pluginManagement {
+    repositories {
+        maven { url = &quot;https://maven.oroarmor.com&quot; }
+    }
+}
+ 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;build.gradle&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;plugins {
+  // ...
+  id &quot;quilt-mappings-on-loom&quot; version &quot;2.0.0&quot;
+}
+
+// ...
+
+dependencies {
+   mappings(loom.layered {
+      addLayer(quiltmappings.mappings(&quot;org.quiltmc:quilt-mappings:${minecraft_version}+build.${project.quilt_mappings}:v2&quot;, true))
+   })
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;new-moderators&quot;&gt;New Moderators&lt;/h2&gt;
+&lt;p&gt;Quilt’s community spaces are always looking for new moderators. If you think you’d be a good fit and like to be involved, you can submit an application via ModMail.&lt;/p&gt;
+
+&lt;p&gt;Some key documents to be aware of &lt;strong&gt;before&lt;/strong&gt; applying:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://quiltmc.org/community/code-of-conduct.html&quot;&gt;The Quilt Code of Conduct&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://quiltmc.org/community/rules.html&quot;&gt;Quilt’s Rules&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://quiltmc.org/community/moderation.html&quot;&gt;Our Moderation Ethos&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/QuiltMC/rfcs/blob/master/structure/0007-community-team.md&quot;&gt;RFC-7 (The Community Team Structure)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If the qualities outlined in the above documents, seem like you… please step forward and apply. The interview proccess will follow the steps outlined in RFC-7 (TL;DR):&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Apply Via ModMail&lt;/li&gt;
+  &lt;li&gt;Interview with a Community Manager (and the wider Community Team)&lt;/li&gt;
+  &lt;li&gt;Community team holds a vote based on the interview&lt;/li&gt;
+  &lt;li&gt;Result of the vote given to interviewee, and if successful the applicant will become a Trainee Moderator&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>ToffeeMax</name></author><summary type="html">It is now well past the End of October and closer to Halloween then I’d like to admit. Here is some of the more fleshed out updates about the Quilt Project:</summary></entry><entry><title type="html">Quilt September Update</title><link href="/blog/2021/09/19/quilt-sept-update.html" rel="alternate" type="text/html" title="Quilt September Update" /><published>2021-09-19T15:00:00+00:00</published><updated>2021-09-19T15:00:00+00:00</updated><id>/blog/2021/09/19/quilt-sept-update</id><content type="html" xml:base="/blog/2021/09/19/quilt-sept-update.html">&lt;p&gt;It has been a few months since the last update on the Quilt Project.&lt;/p&gt;
 
 &lt;p&gt;Quilt has progressed far since that initial “This is Quilt” blog with: new teams set up; several important RFCs being published and developments in many key areas.&lt;/p&gt;
 
