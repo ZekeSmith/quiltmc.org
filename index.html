@@ -1,178 +1,657 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en-us">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        
-        <title>The Quilt Project</title>
-        
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-        <link href="/assets/css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="/assets/css/style.css" rel="stylesheet">
 
-        <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
-        <link rel="manifest" href="/favicon/site.webmanifest">
-        <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#9722ff">
-        <link rel="shortcut icon" href="/favicon/favicon.ico">
-        <meta name="msapplication-TileColor" content="#1b112b">
-        <meta name="msapplication-config" content="/favicon/browserconfig.xml">
-        <meta name="theme-color" content="#1b112b">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#9722ff">
+    <link rel="shortcut icon" href="/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#1b112b">
+    <meta name="msapplication-config" content="/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#1b112b">
 
-        <link type="application/atom+xml" rel="alternate" href="/feed.xml" title="The Quilt Project" />
+    <link type="application/atom+xml" rel="alternate" href="https://quiltmc.org/feed.xml" title="The Quilt Project" />
+    <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>The Quilt Project | The mod-loader that cares.</title>
+<meta name="generator" content="Jekyll v4.2.1" />
+<meta property="og:title" content="The Quilt Project" />
+<meta name="author" content="QuiltMC" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="The mod-loader that cares." />
+<meta property="og:description" content="The mod-loader that cares." />
+<link rel="canonical" href="https://quiltmc.org/" />
+<meta property="og:url" content="https://quiltmc.org/" />
+<meta property="og:site_name" content="The Quilt Project" />
+<meta property="og:image" content="https://quiltmc.org/assets/img/logo-square.png" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:image" content="https://quiltmc.org/assets/img/logo-square.png" />
+<meta property="twitter:title" content="The Quilt Project" />
+<meta name="twitter:site" content="@quilt_mc" />
+<meta name="twitter:creator" content="@QuiltMC" />
+<script type="application/ld+json">
+{"sameAs":["https://twitter.com/quilt_mc","https://github.com/QuiltMC","https://twitch.tv/quiltmc"],"description":"The mod-loader that cares.","url":"https://quiltmc.org/","@type":"WebSite","author":{"@type":"Person","name":"QuiltMC"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://quiltmc.org/assets/img/logo-square.png"},"name":"QuiltMC"},"image":"https://quiltmc.org/assets/img/logo-square.png","name":"QuiltMC","headline":"The Quilt Project","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
 
-        <script src="https://kit.fontawesome.com/b1b70f724e.js" crossorigin="anonymous"></script>
-        <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
-    </head>
-    
-    <body class="page preload">
-        <nav class="main">
-            <div class="container">
-                <a class="logo" href="/">
-                    <img src="/assets/img/logo.svg"
-                         alt="Quilt Logo"/>
-                    <span class="logo-text">Quilt</span>
+
+    <script src="https://kit.fontawesome.com/b1b70f724e.js" crossorigin="anonymous"></script>
+    <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
+</head>
+
+
+
+<body class="page preload">
+
+<section class="hero is-dark has-background-patches">
+    <div class="hero-head">
+        <nav class="navbar no-style" role="navigation" aria-label="main navigation" data-controller="navbar">
+    <div class="navbar-brand">
+        <a class="navbar-item pr-6" href="/">
+            <img src="/assets/img/logo.svg" alt="Quilt Logo" />
+
+            <span class="ml-2">QuiltMC</span>
+        </a>
+
+        <a role="button" data-navbar-target="menu" data-action="click->navbar#toggle" class="navbar-burger" aria-label="menu" aria-expanded="false">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
+
+    <div class="navbar-menu" data-navbar-target="menu">
+        <div class="navbar-end">
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a href="/about/" class="navbar-link is-arrowless ">
+                    About
                 </a>
 
-                <div class="links">
+                <div class="navbar-dropdown is-boxed">
                     
+
                     
-<a href="/blog/" class="">
+                        
+
+
+
+<a href="/about/"
+   
+   class="navbar-item "
+>
     
-    Blog
+
+    <span>About Us</span>
 </a>
 
                     
-<a href="/faq/" class="">
+                        
+
+
+
+<a href="/about/faq/"
+   
+   class="navbar-item "
+>
     
-    FAQ
+
+    <span>FAQ</span>
 </a>
 
                     
-<a href="/community/" class="">
+                        
+
+
+
+<a href="/about/faq/developers/"
+   
+   class="navbar-item "
+>
     
-    Community
+
+    <span>FAQ (Developers)</span>
+</a>
+
+                    
+                        
+
+
+
+<a href="/about/teams/"
+   
+   class="navbar-item "
+>
+    
+
+    <span>Team Listings</span>
+</a>
+
+                    
+                        
+
+
+
+<a href="/about/timeline/"
+   
+   class="navbar-item "
+>
+    
+
+    <span>Timeline</span>
 </a>
 
                     
                 </div>
             </div>
-        </nav>
-        
-        
-        <div class="home-header col">
-    <img alt="Quilt Banner" src="/assets/img/banner.svg" />
-    
-</div>
 
-<div class="content">
-    <main class="container">
-        <div class="text-cols">
-<div class="column">
+            
+
+            
+
+
+
+<a href="/blog/"
+   
+   class="navbar-item "
+>
+    
+
+    <span>Blog</span>
+</a>
+
+
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a href="/community/" class="navbar-link is-arrowless ">
+                    Community
+                </a>
+
+                <div class="navbar-dropdown is-right is-boxed">
+                    
+
+                    
+                        
+
+
+
+<a href="/community/code-of-conduct/"
+   
+   class="navbar-item "
+>
+    
+
+    <span>Code of Conduct</span>
+</a>
+
+                    
+                        
+
+
+
+<a href="/community/"
+   
+   class="navbar-item "
+>
+    
+
+    <span>Community</span>
+</a>
+
+                    
+                        
+
+
+
+<a href="/community/pluralkit/"
+   
+   class="navbar-item "
+>
+    
+
+    <span>PluralKit</span>
+</a>
+
+                    
+                        
+
+
+
+<a href="/community/rules/"
+   
+   class="navbar-item "
+>
+    
+
+    <span>Rules</span>
+</a>
+
+                    
+                </div>
+            </div>
+
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link is-arrowless">
+                    <span class="is-hidden-desktop">
+                        More Pages
+                    </span>
+                    <span class="icon is-hidden-mobile is-hidden-tablet-only">
+                        <i class="fas fa-ellipsis-v"></i>
+                    </span>
+                </a>
+
+                <div class="navbar-dropdown is-right is-boxed">
+                    
+
+
+
+<a href="/mc-patchnotes/"
+   
+   class="navbar-item "
+>
+    
+        <span class="icon"><i class="fa-xl fas fa-notebook"></i></span>
+    
+
+    <span>Minecraft Patch Notes</span>
+</a>
+
+                    
+
+
+
+<a href="/staff/"
+   
+   class="navbar-item "
+>
+    
+        <span class="icon"><i class="fa-xl fas fa-clipboard-user"></i></span>
+    
+
+    <span>Staff Resources</span>
+</a>
+
+
+                    <div class="divider"> External Links </div>
+
+                    
+
+
+
+<a href="https://maven.quiltmc.org"
+   target="_blank"
+   class="navbar-item "
+>
+    
+        <span class="icon"><i class="fa-xl fas fa-feather-pointed"></i></span>
+    
+
+    <span>Maven Repository</span>
+</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+    </div>
+
+    <div class="hero-body">
+        <div class="container has-text-centered">
+            <picture>
+                <source srcset="/assets/img/banner.svg" media="(prefers-color-scheme: dark)">
+                <img class="is-center" style="margin:auto; height: 8rem;" alt="Quilt Banner"
+                     src="/assets/img/banner-light.svg"/>
+            </picture>
+
+            
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <main class="content container">
+        <div class="columns is-centered mb-5">
+<div class="column is-6 mt-2">
 <h1 id="the-quilt-project">The Quilt Project</h1>
 
-<p>The Quilt project is an open, community-driven modding toolchain designed
-primarily for Minecraft. By focusing on speed, ease of use, and modularity,
-Quilt aims to provide a sleek and modern modding toolchain with an open
-ecosystem.</p>
+<p>The Quilt project is an open-source, community-driven modding toolchain designed primarily for Minecraft. By focusing
+on speed, ease of use and modularity, Quilt aims to provide a sleek and modern modding toolchain with an open ecosystem.</p>
+
+<p>Quilt is a project that was born out of a need for change in the Minecraft modding ecosystem. Our teams contain many
+experienced members of the modding community, providing a level of familiarity that helps us to avoid the mistakes of
+the past – whether those mistakes relate to community management, diversity and inclusivity, project governance or
+transparency. For more information on how we hope to do this, <a href="/about/">please see our “about” pages</a>.</p>
+</div>
+
+<div class="column is-4">
+<article class="message is-danger"><div class="message-body">
+<h2 class="has-text-centered">
+  <span class="icon-text">
+    <span class="icon has-text-danger mr-3">
+      <i class="fas fa-warning"></i>
+    </span>
+
+    <span>WIP</span>
+  </span>
+</h2>
+
+<p><strong>Quilt is currently still in development.</strong> This means that it’s not ready for
+use just yet, but we’re working on it!</p>
+
+<p>If you’d like to keep an eye on what’s going on, please feel free to check out
+<a href="https://github.com/orgs/QuiltMC/projects/1">the launch roadmap</a>, or join us on
+Discord using the links you’ll find further down this page.</p>
+</div></article>
+</div>
 
 </div>
 
-<div class="column">
+<div class="columns mb-5 mt-2">
+<div class="column ">
+<article class="message is-primary is-fullheight mr-1"><div class="message-body">
+<h2 class="has-text-centered">
+  <span class="icon-text">
+    <span class="icon has-text-primary mr-3">
+      <i class="fas fa-heart"></i>
+    </span>
+
+    <span>Caring</span>
+  </span>
+</h2>
+
+<p>Quilt is community-driven, and couldn’t exist without its users and contributors. We care about our community; whether
+you’re a member of our community spaces, an occasional contributor to one of our projects or simply a user: <strong>Quilt
+exists for your needs</strong> – not in spite of them.</p>
+</div></article>
+</div>
+
+<div class="column ">
+<article class="message is-link has-text-left is-fullheight ml-1 mr-1"><div class="message-body">
+<h2 class="has-text-centered">
+  <span class="icon-text">
+    <span class="icon has-text-link mr-3">
+      <i class="fas fa-cubes"></i>
+    </span>
+
+    <span>Modular</span>
+  </span>
+</h2>
+
+<p>Quilt’s modularity doesn’t just exist to help with organising its code – <strong>it extends to its users and modders too</strong>.
+If you’re a modder, our build tools will keep track of the Quilt libraries your mod uses. If you’re a user, Quilt can
+automatically download the Quilt libraries needed to run your mods.</p>
+</div></article>
+</div>
+
+<div class="column ">
+<article class="message is-success has-text-left is-fullheight ml-1"><div class="message-body">
+<h2 class="has-text-centered">
+  <span class="icon-text">
+    <span class="icon has-text-success mr-3">
+      <i class="fas fa-wrench"></i>
+    </span>
+
+    <span>Powerful</span>
+  </span>
+</h2>
+
+<p>Quilt has the extra features and tools your mods need to succeed. From a rich library of modules that help you to write
+more compatible mods with less effort, to one of the most accurate decompilers provided by any Minecraft modding
+toolchain, you can be sure that <strong>your mod is in good hands</strong>.</p>
+</div></article>
+</div>
+</div>
+
+<div class="columns is-centered">
+<div class="column is-10">
+<div class="button-grid">
+    <a href="/mc-patchnotes/" class="button is-info">
+        <span class="icon"><i class="fas fa-notebook"></i></span>
+        <span>Minecraft Patch Notes</span>
+    </a>
+
+    <a href="https://maven.quiltmc.org" target="_blank" class="button is-gradle">
+        <span class="icon"><i class="fas fa-feather-pointed"></i></span>
+        <span>Maven Repo</span>
+    </a>
+</div>
+
+</div>
+</div>
+
+<div class="columns is-centered">
+
+<div class="column is-5">
 <h1 id="join-the-community">Join the Community</h1>
 
-<p>In Quilt community spaces, you are expected to follow Quilt’s <a href="/community/rules.html">community
-guidelines</a>.</p>
+<p>Please feel free to join us on one of our official community spaces by clicking the buttons below. Please note that 
+<strong>all users of our community (and development) spaces are expected to abide by 
+<a href="/community/code-of-conduct/">our Code of Conduct</a> and <a href="/community/rules/">our rules</a>.</strong> We recommend that you read 
+and become familiar with them before joining or interacting with us.</p>
 
-<div class="text-cols">
-<a href="https://discord.quiltmc.org" class="button discord column">
-    <img alt="Discord Logo" src="/assets/img/icon/discord-light.svg" /> Discord
-</a>
-<a href="https://github.com/QuiltMC" class="button github column">
-    <img alt="GitHub Logo" src="/assets/img/icon/github-dark.svg" /> GitHub
-</a>
-<a href="/community/" class="button column">
-    <i class="fas fa-ellipsis-h"></i> More
-</a>
+<div class="button-grid">
+    <a href="https://discord.quiltmc.org" target="_blank" class="button is-discord">
+        <span class="icon"><i class="fab fa-discord"></i></span>
+        <span>Community</span>
+    </a>
+
+    <a href="https://twitter.com/quilt_mc" target="_blank" class="button is-twitter">
+        <span class="icon"><i class="fab fa-twitter"></i></span> 
+        <span>Twitter</span>
+    </a>
+
+    <a href="/community/" class="button is-primary">
+        <span class="icon"><i class="fas fa-ellipsis-h"></i></span> 
+        <span>More</span>
+    </a>
 </div>
 
-</div>
+<h1 id="get-involved">Get Involved</h1>
+
+<p>If you’d like to help us, the best thing you can do right now is to join us on GitHub or the toolchain Discord server,
+and offer your expertise. There’s plenty of things to do, so we can always use more help!</p>
+
+<div class="button-grid">
+    <a href="https://discord.quiltmc.org/toolchain" target="_blank" class="button is-discord">
+        <span class="icon"><i class="fab fa-discord"></i></span>
+        <span>Toolchain</span>
+    </a>
+
+    <a href="https://github.com/QuiltMC" target="_blank" class="button is-github">
+        <span class="icon"><i class="fab fa-github"></i></span>
+        <span>GitHub</span>
+    </a>
 </div>
 
-<h1 id="recent-posts">Recent posts</h1>
+<p>If you’re looking for specific jobs, the following places are always worth checking:</p>
 
-<article class="blog-post">
-    <h2><a href="/blog/2021/11/10/quilt-oct-update.html">Quilt's (VERY LATE) October Update</a></h2>
+<ul>
+    <li><a href="https://github.com/QuiltMC/rfcs/pulls">RFCs with open Pull Requests</a></li>
+    <li><a href="https://github.com/QuiltMC/quilt-mappings/pulls">Quilt Mappings Pull Requests</a></li>
+    <li><a href="https://github.com/orgs/QuiltMC/projects/1">Quilt's Launch Roadmap project</a></li>
+</ul>
+</div>
+
+<div class="column is-5">
+<h1 id="latest-posts">Latest Posts</h1>
+
+<article class="blog-post with-divider">
+    <h2 class="subtitle"><a href="/blog/2021/11/10/quilt-oct-update/">Quilt's (VERY LATE) October Update</a></h2>
+
     
-<div class="post-info">
-    Posted by ToffeeMax on
-    <time datetime="2021/11/10">
-        10 November 2021
-    </time>
+
+<div class="media">
+    <div class="media-content">
+        
+            <p class="title is-5">
+                ToffeeMax
+            </p>
+        
+
+        <p class="subtitle is-6">
+            10 November 2021
+        </p>
+    </div>
 </div>
 
 
     <p><p>It is now <em>well</em> past the End of October and closer to Halloween then I’d like to admit. Here is some of the more fleshed out updates about the Quilt Project:</p>
+
 </p>
-    <a href="/blog/2021/11/10/quilt-oct-update.html">More...</a>
 </article>
 
-<article class="blog-post">
-    <h2><a href="/blog/2021/09/19/quilt-sept-update.html">Quilt September Update</a></h2>
+<article class="blog-post with-divider">
+    <h2 class="subtitle"><a href="/blog/2021/09/19/quilt-sept-update/">Quilt September Update</a></h2>
+
     
-<div class="post-info">
-    Posted by ToffeeMax on
-    <time datetime="2021/09/19">
-        19 September 2021
-    </time>
+
+<div class="media">
+    <div class="media-content">
+        
+            <p class="title is-5">
+                ToffeeMax
+            </p>
+        
+
+        <p class="subtitle is-6">
+            19 September 2021
+        </p>
+    </div>
 </div>
 
 
     <p><p>It has been a few months since the last update on the Quilt Project.</p>
+
+<p>Quilt has progressed far since that initial “This is Quilt” blog with: new teams set up; several important RFCs being published and developments in many key areas.</p>
+
 </p>
-    <a href="/blog/2021/09/19/quilt-sept-update.html">More...</a>
 </article>
 
+<article class="blog-post with-divider">
+    <h2 class="subtitle"><a href="/blog/2021/04/20/this-is-quilt/">This is Quilt</a></h2>
 
-    </main>
+    
+
+<div class="media">
+    <div class="media-content">
+        
+            <p class="title is-5">
+                Haven King, ToffeeMax
+            </p>
+        
+
+        <p class="subtitle is-6">
+            20 April 2021
+        </p>
+    </div>
 </div>
 
 
-        
+    <p><p>This is the Quilt Project: An open, community-driven modding toolchain designed primarily for Minecraft. Quilt builds on many of the technologies developed by <a href="https://fabricmc.net/">the Fabric Project</a> and is designed to take what worked well and expand on it further.</p>
 
-        <footer>
-            <div class="container">
-                <p>Copyright &copy; 2021 Quilt Project</p>
-                <p>
-                    <a href="https://discord.quiltmc.org">Discord</a> •
-                    <a href="https://github.com/QuiltMC">GitHub</a> • 
-                    <a href="https://twitter.com/quilt_mc">Twitter</a> • 
-                    <a href="https://twitch.tv/quiltmc">Twitch</a>
-                </p>
-                <div class="disclaimer">
+</p>
+</article>
+
+<div class="is-flex mt-4 is-justify-content-right">
+    <a class="button is-primary" href="/blog">
+        <span class="icon"><i class="fas fa-ellipsis-h"></i></span>
+        <span>More Posts</span>
+    </a>
+</div>
+
+</div>
+</div>
+
+    </main>
+</section>
+
+
+
+
+<footer class="footer">
+    <div class="content">
+        <div class="columns">
+            <div class="column is-half is-offset-one-quarter">
+                <div class="field is-grouped is-grouped-centered">
+                    <p class="control">
+                        <a title="Discord" class="button is-discord is-rounded" target="_blank" href="https://discord.quiltmc.org">
+                            <span class="icon"><i class="fab fa-discord"></i></span>
+                        </a>
+                    </p>
+
+                    <p class="control">
+                        <a title="GitHub" class="button is-github is-rounded"
+                           target="_blank"
+                           href="https://github.com/QuiltMC">
+                            <span class="icon"><i class="fab fa-github"></i></span>
+                        </a>
+                    </p>
+
+                    <p class="control">
+                        <a title="Twitter" class="button is-twitter is-rounded"
+                           target="_blank"
+                           href="https://twitter.com/quilt_mc">
+                            <span class="icon"><i class="fab fa-twitter"></i></span>
+                        </a>
+                    </p>
+
+                    <p class="control">
+                        <a title="Twitch" class="button is-primary is-rounded" target="_blank"
+                           href="https://twitch.tv/quiltmc">
+                            <span class="icon"><i class="fab fa-twitch"></i></span>
+                        </a>
+                    </p>
+                </div>
+
+                <br />
+
+                <div class="has-text-centered">
+                    <p>
+                        <strong>Copyright &copy; 2022 Quilt Project</strong>
+                    </p>
+
                     <p>
                         Quilt is not an official Minecraft product, and is not
                         approved by or associated with Mojang Studios.
                         "Minecraft" is a trademark of Mojang AB and any usage
                         of the Minecraft brand on this site is used in
-                        accordance with Mojang Studios' <a href="https://account.mojang.com/terms?ref=ft#brand">Brand and Asset Guidelines</a>.
+                        accordance with Mojang Studios'
+                        <a href="https://account.mojang.com/terms?ref=ft#brand" target="_blank">Brand and Asset Guidelines</a>.
+                    </p>
+
+                    <p>
+                        All logos used on this site are the property of their respective owners. The
+                        CurseForge logo recreation we use in a few places on this site
+                        <a href="https://gist.github.com/thecodewarrior/110057b210551c4ecf2c9be6d58ff824" target="_blank">was created by thecodewarrior</a>.
+                    </p>
+
+                    <p>
+                        Made with <i class="fak fa-2xl fa-pumpkin"></i>, <a href="https://bulma.io">Bulma</a> and
+                        <a href="https://github.com/CreativeBulma">the CreativeBulma extensions</a>.
                     </p>
                 </div>
             </div>
-        </footer>
+        </div>
+    </div>
+</footer>
 
-        
 
-        <script>
-            document.addEventListener('DOMContentLoaded', function() {
-                document.body.className = document.body.className.replace("preload", "")
-            });
+<script src="/assets/js/bundle.js"></script>
 
-            twemoji.parse(document.body);
-        </script>
-    </body>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        document.body.className = document.body.className.replace("preload", "")
+    });
+
+    twemoji.parse(document.body);
+</script>
+</body>
 </html>
 
