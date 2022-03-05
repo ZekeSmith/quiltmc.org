@@ -5121,6 +5121,10 @@ article.with-divider.blog-post:not(:last-child) { border-bottom: 1px solid #9494
 
 .button.is-github:hover, .button.is-github:active { border-color: #ededed; background-color: #ededed; }
 
+.button.is-rss { background-color: #FF8C00; border-color: #FF8C00; color: white; }
+
+.button.is-rss:hover, .button.is-rss:active { border-color: #f08400; background-color: #f08400; }
+
 .highlight pre { background-color: #272822; }
 
 .highlight .hll { background-color: #272822; }
