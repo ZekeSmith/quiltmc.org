@@ -5007,13 +5007,23 @@ article.blog-post:not(:last-child) { margin-bottom: 1rem; }
 
 article.with-divider.blog-post:not(:last-child) { border-bottom: 1px solid black; }
 
+@media screen and (min-width: 769px) { .is-sticky { position: -webkit-sticky; position: -moz-sticky; position: -ms-sticky; position: -o-sticky; position: sticky; top: 1rem; max-height: calc(100vh - 2rem); overflow-y: scroll; } }
+
 .grid-picker { display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; margin-bottom: 1rem; }
 
 .grid-picker > * { margin: 1rem !important; }
 
 .grid-picker img { width: 4rem !important; }
 
-@media screen and (min-width: 769px) { .is-sticky { position: -webkit-sticky; position: -moz-sticky; position: -ms-sticky; position: -o-sticky; position: sticky; top: 1rem; max-height: calc(100vh - 2rem); overflow-y: scroll; } }
+.notification.is-installer-button { height: 12rem; width: 12rem; margin: 1rem; padding: 1rem; }
+
+.notification.is-installer-button:hover, .notification.is-installer-button:active { background-color: #eddaff; }
+
+.notification.is-installer-button div { display: grid; grid-template-columns: 1fr; grid-template-rows: 1fr; width: 100%; height: 100%; }
+
+.notification.is-installer-button div p { grid-row: 1; grid-column: 1; justify-self: center; width: 10rem; height: 3.2rem; }
+
+.notification.is-installer-button div img { grid-row: 2; grid-column: 1; margin-bottom: 2rem; justify-self: center; width: 10rem; }
 
 .card.admin, .message.admin { border: 0.1rem solid #e5aa01; background: #ffebb3; }
 
