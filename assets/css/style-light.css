@@ -5163,6 +5163,10 @@ article.with-divider.blog-post:not(:last-child) { border-bottom: 1px solid black
 
 .button.is-rss:hover, .button.is-rss:active { border-color: #ff930f; background-color: #ff930f; }
 
+hr { background-color: #dbdbdb; border-color: #dbdbdb; }
+
+a.notification { color: black; }
+
 .highlight .hll { background-color: #ffffcc; }
 
 .highlight .c { color: #606060; font-style: italic; }
