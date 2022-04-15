@@ -312,13 +312,131 @@
 
 
 
+<div class='columns is-centered'>
+<div class='column is-10'>
 <section class="section">
     <main class="content container">
-        <h1 class="title">Coming soon!</h1>
+        <div class="columns">
+    <div class="column is-5" data-controller="sidebar">
+        <div class="is-hidden-tablet">
+            <a class="button is-link" href="/install">
+                <span class="icon"><i class="fas fa-arrow-left"></i></span>
+                <span>Back</span>
+            </a>
 
-        Thanks for being patient.
+            <button data-action="click-&gt;sidebar#toggle" class="button is-primary">
+                <span class="icon"><i class="fas fa-ellipsis-h"></i></span>
+                <span>Menu</span>
+            </button>
+
+            <br />
+            <br />
+        </div>
+
+        <div class="is-hidden-mobile" data-sidebar-target="sidebar" data-scroll-to-top="true">
+            <a class="is-hidden-mobile button is-link mb-2" href="/install">
+                <span class="icon"><i class="fas fa-arrow-left"></i></span>
+                <span>Back to list</span>
+            </a>
+
+            <div class="grid-picker mb-0">
+                <a class="notification is-dark is-installer-button" href="/install/client">
+    <div>
+        <p class="subtitle has-text-centered">Client</p>
+
+        <img src="/assets/img/launchers/minecraft.png" alt="Minecraft logo" />
+    </div>
+</a>
+
+<a class="notification is-dark is-installer-button" href="/install/server">
+    <div>
+        <p class="subtitle has-text-centered">Server</p>
+
+        <img src="/assets/img/launchers/server.svg" alt="Java logo" />
+    </div>
+</a>
+
+            </div>
+
+            <hr class="my-0" />
+
+            <div class="grid-picker mb-0">
+                <a class="notification is-dark is-installer-button" href="/install/atlauncher">
+    <div>
+        <p class="subtitle has-text-centered">ATLauncher</p>
+
+        <img src="/assets/img/launchers/atlauncher.svg" alt="ATLauncher logo" />
+    </div>
+</a>
+
+<a class="notification is-dark is-installer-button" href="/install/polymc">
+    <div>
+        <p class="subtitle has-text-centered">PolyMC</p>
+
+        <img src="/assets/img/launchers/polymc.svg" alt="PolyMC logo" />
+    </div>
+</a>
+
+            </div>
+
+            <hr class="my-0" />
+
+            <div class="grid-picker">
+                <a class="notification is-installer-button" href="/install/curseforge">
+    <div>
+        <p class="subtitle has-text-centered">CurseForge</p>
+
+        <img src="/assets/img/launchers/curseforge.svg" alt="CurseForge logo" />
+    </div>
+</a>
+
+<a class="notification is-installer-button" href="/install/gdlauncher">
+    <div>
+        <p class="subtitle has-text-centered">GDLauncher</p>
+
+        <img src="/assets/img/launchers/gdlauncher.webp" alt="GDLauncher logo" />
+    </div>
+</a>
+
+<a class="notification is-installer-button" href="/install/multimc">
+    <div>
+        <p class="subtitle has-text-centered">MultiMC</p>
+
+        <img src="/assets/img/launchers/multimc.svg" alt="MultiMC logo" />
+    </div>
+</a>
+
+            </div>
+
+            <hr class="is-hidden-desktop is-hidden-tablet my-0" />
+        </div>
+    </div>
+
+    <div class="column">
+        <h1 id="multimc-website">MultiMC <a href="https://multimc.org" class="button is-link is-pulled-right"><span class="icon"><i class="fas fa-globe"></i></span><span>Website</span></a></h1>
+
+<h3 id="status-work-in-progress">Status: Work In Progress</h3>
+
+<p>MultiMC does not currently support Quilt, but a member of the community has 
+<a href="https://github.com/MultiMC/Launcher/pull/3760">submitted a pull request</a> that adds Quilt support. If you’re 
+interested in seeing Quilt support in MultiMC, feel free to take a look at that PR.</p>
+
+<h1 id="manual-installation">Manual Installation</h1>
+
+<p>While it is technically possible to add Quilt to any MultiMC instance manually, it’s a somewhat technical process that
+involves writing your own JSON component definition. For that reason, we’re not publishing instructions on how to do 
+that here — however, we are working on automatically generating MultiMC instances you can import to easily get 
+set up with Quilt.</p>
+
+    </div>
+</div>
+
     </main>
 </section>
+
+</div>
+</div>
+
 
 
 <footer class="footer">
@@ -397,6 +515,12 @@
 </footer>
 
 
+<script>
+    
+    window.pageHasDownloads = false
+    
+</script>
+
 <script src="/assets/js/bundle.js"></script>
 
 <script>
@@ -406,6 +530,3 @@
 
     twemoji.parse(document.body);
 </script>
-</body>
-</html>
-

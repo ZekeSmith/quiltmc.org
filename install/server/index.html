@@ -312,13 +312,182 @@
 
 
 
+<div class='columns is-centered'>
+<div class='column is-10'>
 <section class="section">
     <main class="content container">
-        <h1 class="title">Coming soon!</h1>
+        <div class="columns">
+    <div class="column is-5" data-controller="sidebar">
+        <div class="is-hidden-tablet">
+            <a class="button is-link" href="/install">
+                <span class="icon"><i class="fas fa-arrow-left"></i></span>
+                <span>Back</span>
+            </a>
 
-        Thanks for being patient.
+            <button data-action="click-&gt;sidebar#toggle" class="button is-primary">
+                <span class="icon"><i class="fas fa-ellipsis-h"></i></span>
+                <span>Menu</span>
+            </button>
+
+            <br />
+            <br />
+        </div>
+
+        <div class="is-hidden-mobile" data-sidebar-target="sidebar" data-scroll-to-top="true">
+            <a class="is-hidden-mobile button is-link mb-2" href="/install">
+                <span class="icon"><i class="fas fa-arrow-left"></i></span>
+                <span>Back to list</span>
+            </a>
+
+            <div class="grid-picker mb-0">
+                <a class="notification is-dark is-installer-button" href="/install/client">
+    <div>
+        <p class="subtitle has-text-centered">Client</p>
+
+        <img src="/assets/img/launchers/minecraft.png" alt="Minecraft logo" />
+    </div>
+</a>
+
+<a class="notification is-dark is-installer-button" href="/install/server">
+    <div>
+        <p class="subtitle has-text-centered">Server</p>
+
+        <img src="/assets/img/launchers/server.svg" alt="Java logo" />
+    </div>
+</a>
+
+            </div>
+
+            <hr class="my-0" />
+
+            <div class="grid-picker mb-0">
+                <a class="notification is-dark is-installer-button" href="/install/atlauncher">
+    <div>
+        <p class="subtitle has-text-centered">ATLauncher</p>
+
+        <img src="/assets/img/launchers/atlauncher.svg" alt="ATLauncher logo" />
+    </div>
+</a>
+
+<a class="notification is-dark is-installer-button" href="/install/polymc">
+    <div>
+        <p class="subtitle has-text-centered">PolyMC</p>
+
+        <img src="/assets/img/launchers/polymc.svg" alt="PolyMC logo" />
+    </div>
+</a>
+
+            </div>
+
+            <hr class="my-0" />
+
+            <div class="grid-picker">
+                <a class="notification is-installer-button" href="/install/curseforge">
+    <div>
+        <p class="subtitle has-text-centered">CurseForge</p>
+
+        <img src="/assets/img/launchers/curseforge.svg" alt="CurseForge logo" />
+    </div>
+</a>
+
+<a class="notification is-installer-button" href="/install/gdlauncher">
+    <div>
+        <p class="subtitle has-text-centered">GDLauncher</p>
+
+        <img src="/assets/img/launchers/gdlauncher.webp" alt="GDLauncher logo" />
+    </div>
+</a>
+
+<a class="notification is-installer-button" href="/install/multimc">
+    <div>
+        <p class="subtitle has-text-centered">MultiMC</p>
+
+        <img src="/assets/img/launchers/multimc.svg" alt="MultiMC logo" />
+    </div>
+</a>
+
+            </div>
+
+            <hr class="is-hidden-desktop is-hidden-tablet my-0" />
+        </div>
+    </div>
+
+    <div class="column">
+        <h1 id="server">Server</h1>
+
+<p>Before getting started, you’ll need to make sure you download a copy of the Quilt installer. You’ll also need to make
+sure you’ve <a href="https://java.com/en/download/">installed Java</a>.</p>
+
+<noscript>
+<div class="message is-danger">
+<div class="message-body">
+Unfortunately, we don't quite have the ability to offer the latest downloads without JavaScript enabled. We're working 
+on this -- but for the time being, **please enable JavaScript.**
+</div>
+</div>
+</noscript>
+
+<div class="field is-horizontal">
+    <div class="field-label is-normal mt-1">
+        <span class="title is-6" id="launcher-version">Loading...</span>
+    </div>
+    <div class="field-body">
+        <div class="field">
+            <div class="control">
+               <a id="universal-download" href="#" class="button is-primary mt-1">Universal (.jar)</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<h2 id="gui-installation">GUI Installation</h2>
+
+<p>Once you have a copy of the Quilt installer downloaded, follow these steps:</p>
+
+<ol>
+  <li>Find the Quilt installer you downloaded and run it</li>
+  <li>Ensure that you have the <strong>Server</strong> tab selected</li>
+  <li>Select the version of Minecraft you wish to install Quilt for</li>
+  <li>Select the version of the Quilt loader you’d like to use</li>
+  <li>Select the location you’d like to install the server to</li>
+  <li>Check the <strong>Download server jar</strong> and <strong>Generate launch script</strong> boxes</li>
+  <li>Click the <strong>Install</strong> button</li>
+</ol>
+
+<p>This will download a copy of the Minecraft server to the location you specified, and install Quilt to it, providing a 
+launcher JAR to start the server with. It’ll also create a set of scripts you can use to launch the server - a <code class="language-plaintext highlighter-rouge">.bat</code> 
+script for Windows and a <code class="language-plaintext highlighter-rouge">.sh</code> script for Mac and Linux.</p>
+
+<p>That’s all there is to it - use the corresponding launch script to start the server for the first time, then stop it
+and set it up as you normally would.</p>
+
+<h2 id="cli-installation">CLI Installation</h2>
+
+<p>Once you have a copy of the Quilt installer downloaded, you’ll need to run it from your terminal, replacing 
+<code class="language-plaintext highlighter-rouge">INSTALLER_VERSION</code> and <code class="language-plaintext highlighter-rouge">MINECRAFT_VERSION</code> as needed:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>java <span class="nt">-jar</span> quilt-installer-INSTALLER_VERSION.jar <span class="se">\</span>
+  <span class="nb">install </span>server MINECRAFT_VERSION <span class="se">\</span>
+  <span class="nt">--download-server</span> <span class="se">\</span>
+  <span class="nt">--create-scripts</span>
+</code></pre></div></div>
+
+<p>This will download a copy of the Minecraft server to <code class="language-plaintext highlighter-rouge">server/</code> and install Quilt to it, providing a launcher JAR to
+start the server with. It’ll also create a set of scripts you can use to launch the server - a <code class="language-plaintext highlighter-rouge">.bat</code> script for
+Windows and a <code class="language-plaintext highlighter-rouge">.sh</code> script for Mac and Linux.</p>
+
+<p>That’s all there is to it - use the corresponding launch script to start the server for the first time, then stop it
+and set it up as you normally would.</p>
+
+    </div>
+</div>
+
     </main>
 </section>
+
+</div>
+</div>
+
 
 
 <footer class="footer">
@@ -397,6 +566,12 @@
 </footer>
 
 
+<script>
+    
+    window.pageHasDownloads = true
+    
+</script>
+
 <script src="/assets/js/bundle.js"></script>
 
 <script>
@@ -406,6 +581,3 @@
 
     twemoji.parse(document.body);
 </script>
-</body>
-</html>
-

@@ -5025,6 +5025,8 @@ article.with-divider.blog-post:not(:last-child) { border-bottom: 1px solid black
 
 .notification.is-installer-button div img { grid-row: 2; grid-column: 1; margin-bottom: 2rem; justify-self: center; width: 10rem; }
 
+span.inline-divider { border: 1px solid transparent; display: inline-block; margin-top: 1rem; margin-left: 0.5rem; margin-right: 0.5rem; padding-bottom: 1rem; width: 1px; }
+
 .card.admin, .message.admin { border: 0.1rem solid #e5aa01; background: #ffebb3; }
 
 .card.admin .system-members div img, .message.admin .system-members div img { border: 1px solid #e5aa01; }
@@ -5166,6 +5168,8 @@ article.with-divider.blog-post:not(:last-child) { border-bottom: 1px solid black
 hr { background-color: #dbdbdb; border-color: #dbdbdb; }
 
 a.notification { color: black; }
+
+span.inline-divider { background-color: #dbdbdb; border-color: #dbdbdb; }
 
 .highlight .hll { background-color: #ffffcc; }
 

@@ -5001,6 +5001,8 @@ article.with-divider.blog-post:not(:last-child) { border-bottom: 1px solid #9494
 
 .notification.is-installer-button div img { grid-row: 2; grid-column: 1; margin-bottom: 2rem; justify-self: center; width: 10rem; }
 
+span.inline-divider { border: 1px solid transparent; display: inline-block; margin-top: 1rem; margin-left: 0.5rem; margin-right: 0.5rem; padding-bottom: 1rem; width: 1px; }
+
 .card.admin, .message.admin { border: 0.1rem solid #e5aa01; background: #7f5f01; }
 
 .card.admin .system-members div img, .message.admin .system-members div img { border: 1px solid #e5aa01; }
@@ -5144,6 +5146,8 @@ hr { background-color: #4a4a4a; border-color: #4a4a4a; }
 .notification { background-color: #342747; }
 
 a.notification { color: white; }
+
+span.inline-divider { background-color: #4a4a4a; border-color: #4a4a4a; }
 
 .highlight pre { background-color: #272822; }
 

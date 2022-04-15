@@ -312,13 +312,151 @@
 
 
 
+<div class='columns is-centered'>
+<div class='column is-10'>
 <section class="section">
     <main class="content container">
-        <h1 class="title">Coming soon!</h1>
+        <div class="columns">
+    <div class="column is-5" data-controller="sidebar">
+        <div class="is-hidden-tablet">
+            <a class="button is-link" href="/install">
+                <span class="icon"><i class="fas fa-arrow-left"></i></span>
+                <span>Back</span>
+            </a>
 
-        Thanks for being patient.
+            <button data-action="click-&gt;sidebar#toggle" class="button is-primary">
+                <span class="icon"><i class="fas fa-ellipsis-h"></i></span>
+                <span>Menu</span>
+            </button>
+
+            <br />
+            <br />
+        </div>
+
+        <div class="is-hidden-mobile" data-sidebar-target="sidebar" data-scroll-to-top="true">
+            <a class="is-hidden-mobile button is-link mb-2" href="/install">
+                <span class="icon"><i class="fas fa-arrow-left"></i></span>
+                <span>Back to list</span>
+            </a>
+
+            <div class="grid-picker mb-0">
+                <a class="notification is-dark is-installer-button" href="/install/client">
+    <div>
+        <p class="subtitle has-text-centered">Client</p>
+
+        <img src="/assets/img/launchers/minecraft.png" alt="Minecraft logo" />
+    </div>
+</a>
+
+<a class="notification is-dark is-installer-button" href="/install/server">
+    <div>
+        <p class="subtitle has-text-centered">Server</p>
+
+        <img src="/assets/img/launchers/server.svg" alt="Java logo" />
+    </div>
+</a>
+
+            </div>
+
+            <hr class="my-0" />
+
+            <div class="grid-picker mb-0">
+                <a class="notification is-dark is-installer-button" href="/install/atlauncher">
+    <div>
+        <p class="subtitle has-text-centered">ATLauncher</p>
+
+        <img src="/assets/img/launchers/atlauncher.svg" alt="ATLauncher logo" />
+    </div>
+</a>
+
+<a class="notification is-dark is-installer-button" href="/install/polymc">
+    <div>
+        <p class="subtitle has-text-centered">PolyMC</p>
+
+        <img src="/assets/img/launchers/polymc.svg" alt="PolyMC logo" />
+    </div>
+</a>
+
+            </div>
+
+            <hr class="my-0" />
+
+            <div class="grid-picker">
+                <a class="notification is-installer-button" href="/install/curseforge">
+    <div>
+        <p class="subtitle has-text-centered">CurseForge</p>
+
+        <img src="/assets/img/launchers/curseforge.svg" alt="CurseForge logo" />
+    </div>
+</a>
+
+<a class="notification is-installer-button" href="/install/gdlauncher">
+    <div>
+        <p class="subtitle has-text-centered">GDLauncher</p>
+
+        <img src="/assets/img/launchers/gdlauncher.webp" alt="GDLauncher logo" />
+    </div>
+</a>
+
+<a class="notification is-installer-button" href="/install/multimc">
+    <div>
+        <p class="subtitle has-text-centered">MultiMC</p>
+
+        <img src="/assets/img/launchers/multimc.svg" alt="MultiMC logo" />
+    </div>
+</a>
+
+            </div>
+
+            <hr class="is-hidden-desktop is-hidden-tablet my-0" />
+        </div>
+    </div>
+
+    <div class="column">
+        <h1 id="atlauncher-website">ATLauncher <a href="https://atlauncher.com" class="button is-link is-pulled-right"><span class="icon"><i class="fas fa-globe"></i></span><span>Website</span></a></h1>
+
+<article class="message is-danger"><div class="message-body">
+<p>Quilt support is included with ATLauncher’s stable builds, but is not currently enabled for everyone. To do so, you’ll
+need to enable it yourself. To avoid adding to the ATLauncher project’s support burden, we’re not going to detail
+exactly how to enable it early – but if you know what you’re doing, the following JSON may be of use to you.</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+    </span><span class="nl">"loaders"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"quilt"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"enabled"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+        </span><span class="p">}</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<p>We expect Quilt support to be enabled around the beginning of Quilt’s beta releases. This message will be removed at
+that point.</p>
+</div></article>
+
+<p>ATLauncher is a simple, easy-to-use launcher, built around the concept of building game instances from “packs”. To set 
+up your own Quilt instance, simply follow these steps:</p>
+
+<ol>
+  <li>Download and install ATLauncher from <a href="https://atlauncher.com">their website</a></li>
+  <li>Open ATLauncher and click on the <strong>Vanilla Packs</strong> tab on the right side</li>
+  <li>Fill out the <strong>Instance Name</strong> and <strong>Instance Description</strong> boxes as required</li>
+  <li>Pick the version of Minecraft you’d like to use for your instance</li>
+  <li>Pick <strong>Quilt</strong> from the list of loaders below the Minecraft versions section</li>
+  <li>Select the Quilt Loader version you’d like to use</li>
+  <li>Click <strong>Create Instance</strong> to create your instance</li>
+</ol>
+
+<p>That’s all there is to it! You can find your new instance in the <strong>Instances</strong> tab on the right side of the window.</p>
+
+    </div>
+</div>
+
     </main>
 </section>
+
+</div>
+</div>
+
 
 
 <footer class="footer">
@@ -397,6 +535,12 @@
 </footer>
 
 
+<script>
+    
+    window.pageHasDownloads = false
+    
+</script>
+
 <script src="/assets/js/bundle.js"></script>
 
 <script>
@@ -406,6 +550,3 @@
 
     twemoji.parse(document.body);
 </script>
-</body>
-</html>
-
