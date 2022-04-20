@@ -31,14 +31,14 @@
 <meta property="og:site_name" content="The Quilt Project" />
 <meta property="og:image" content="https://quiltmc.org/assets/img/logo-square.png" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2022-04-20T10:15:11+00:00" />
+<meta property="article:published_time" content="2022-04-20T10:55:27+00:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:image" content="https://quiltmc.org/assets/img/logo-square.png" />
 <meta property="twitter:title" content="FAQ" />
 <meta name="twitter:site" content="@quilt_mc" />
 <meta name="twitter:creator" content="@QuiltMC" />
 <script type="application/ld+json">
-{"headline":"FAQ","dateModified":"2022-04-20T10:15:11+00:00","datePublished":"2022-04-20T10:15:11+00:00","description":"Frequently asked questions, for the burning topics that need addressing regularly.","mainEntityOfPage":{"@type":"WebPage","@id":"https://quiltmc.org/about/faq/"},"url":"https://quiltmc.org/about/faq/","@type":"BlogPosting","author":{"@type":"Person","name":"QuiltMC"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://quiltmc.org/assets/img/logo-square.png"},"name":"QuiltMC"},"image":"https://quiltmc.org/assets/img/logo-square.png","@context":"https://schema.org"}</script>
+{"headline":"FAQ","dateModified":"2022-04-20T10:55:27+00:00","datePublished":"2022-04-20T10:55:27+00:00","description":"Frequently asked questions, for the burning topics that need addressing regularly.","mainEntityOfPage":{"@type":"WebPage","@id":"https://quiltmc.org/about/faq/"},"url":"https://quiltmc.org/about/faq/","@type":"BlogPosting","author":{"@type":"Person","name":"QuiltMC"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://quiltmc.org/assets/img/logo-square.png"},"name":"QuiltMC"},"image":"https://quiltmc.org/assets/img/logo-square.png","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -560,6 +560,26 @@ if someone else decides to continue that part of the project after we stop maint
 <p>It’s also worth noting that – as of this writing – Fabric mods that contain mixin plugins are supported, but this 
 will change in future. This isn’t a major issue as the vast majority of mods don’t use mixin plugins, but we’ll be happy 
 to work with mod developers that need an alternative approach for Quilt.</p>
+
+</div></article>
+<article class="message"><div class="message-body">
+      <h2 id="if-im-using-fabric-mods-do-i-need-fabric-api-installed">
+        
+        
+          If I’m using Fabric mods, do I need Fabric API installed? <a href="#if-im-using-fabric-mods-do-i-need-fabric-api-installed" class="is-anchor ml-2"><i class="far fa-sm fa-paragraph"></i></a>
+        
+        
+      </h2>
+    
+
+<p><strong>No, you don’t</strong> - in fact, we recommend against this for compatibility reasons.</p>
+
+<p>Many Quilt mods make use of the Quilt Standard Libraries (QSL), which are directly incompatible with Fabric API. To 
+deal with this problem, QSL includes a special version of Fabric API which doesn’t conflict – it’s part of the standard
+QSL distribution, which you can <a href="https://modrinth.com/mod/qsl">download them from Modrinth</a>.</p>
+
+<p>As long as Fabric mods are correctly written to use only the intended public APIs from Fabric API, they should work
+correctly with QSL.</p>
 
 </div></article>
 <article class="message"><div class="message-body">
