@@ -4907,6 +4907,22 @@ figure.highlight > pre { background-color: #1c1526; border: 1px solid black; bor
 
 figure.highlight td { padding: 0 !important; }
 
+.message details summary { list-style: none; cursor: pointer; }
+
+.message details summary span { font-family: Poppins, sans-serif; font-size: 28px; font-weight: 600; }
+
+.message details summary svg { height: 1.5rem; margin-right: 0.5rem; margin-bottom: 0.1rem; }
+
+.message details summary .summary-icon { transform: rotate(0); transform-origin: center; transition: .25s transform ease; }
+
+.message details summary * { display: inline; }
+
+.message details summary::marker { display: none; }
+
+.message details[open] summary .summary-icon { transform: rotate(90deg); }
+
+.message details p:first-of-type { margin-top: 1rem; }
+
 .hero, .navbar, .font-header, .font-header > * { font-family: "Poppins", sans-serif; font-weight: 700; }
 
 .font-subheader, .font-subheader > * { font-family: "Poppins", sans-serif; font-weight: 600; }
