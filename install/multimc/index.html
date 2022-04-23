@@ -421,6 +421,14 @@
     </div>
 </a>
 
+<a class="notification is-dark is-installer-button" href="/install/multimc">
+    <div>
+        <p class="subtitle has-text-centered">MultiMC</p>
+
+        <img src="/assets/img/launchers/multimc.svg" alt="MultiMC logo" />
+    </div>
+</a>
+
 <a class="notification is-dark is-installer-button" href="/install/polymc">
     <div>
         <p class="subtitle has-text-centered">PolyMC</p>
@@ -447,14 +455,6 @@
         <p class="subtitle has-text-centered">GDLauncher</p>
 
         <img src="/assets/img/launchers/gdlauncher.webp" alt="GDLauncher logo" />
-    </div>
-</a>
-
-<a class="notification is-installer-button" href="/install/multimc">
-    <div>
-        <p class="subtitle has-text-centered">MultiMC</p>
-
-        <img src="/assets/img/launchers/multimc.svg" alt="MultiMC logo" />
     </div>
 </a>
 
@@ -490,18 +490,32 @@
 
         <h1 id="multimc-website">MultiMC <a href="https://multimc.org" class="button is-link is-pulled-right"><span class="icon"><i class="fas fa-globe"></i></span><span>Website</span></a></h1>
 
-<h3 id="status-work-in-progress">Status: Work In Progress</h3>
+<article class="message is-danger"><div class="message-body">
+<h2>Development version required</h2>
+<p>Quilt is currently only supported on the development version of MultiMC. To switch to the development version,
+click the <strong>Settings</strong> button at the top of the window, and change the <strong>Update Channel</strong> to <strong>Development</strong>.
+Then, close the settings and press <strong>Update</strong> then <strong>Update Now</strong> to update to the latest development build.</p>
+</div></article>
 
-<p>MultiMC does not currently support Quilt, but a member of the community has 
-<a href="https://github.com/MultiMC/Launcher/pull/3760">submitted a pull request</a> that adds Quilt support. If you’re 
-interested in seeing Quilt support in MultiMC, feel free to take a look at that PR.</p>
+<p>MultiMC is a launcher with advanced features to allow power users to manage separate instances of Minecraft.
+To set up a Quilt instance with MultiMC, follow these steps:</p>
 
-<h1 id="manual-installation">Manual Installation</h1>
+<ol>
+  <li>Download and install MultiMC from <a href="https://multimc.org">their website</a></li>
+  <li>Open MultiMC, follow the setup steps and click on the <strong>Add Instance</strong> button at the top of the window</li>
+  <li>Fill out the <strong>Name</strong> and <strong>Group</strong> boxes as required</li>
+  <li>Select <strong>Vanilla</strong> from the list on the left, and pick the version of Minecraft you’d like to use for your instance</li>
+  <li>Click <strong>OK</strong> to create a new vanilla instance</li>
+  <li>Right-click on the instance and select <strong>Edit Instance</strong>, or click on it once and select <strong>Edit Instance</strong> from the 
+menu on the right of the window</li>
+  <li>Select <strong>Version</strong> from the list on the left, and click the <strong>Install Quilt</strong> button in the menu on the right side 
+of the window</li>
+  <li>Select the Quilt Loader version you’d like to use and click <strong>OK</strong></li>
+  <li>Set up the rest of your instance as normal</li>
+</ol>
 
-<p>While it is technically possible to add Quilt to any MultiMC instance manually, it’s a somewhat technical process that
-involves writing your own JSON component definition. For that reason, we’re not publishing instructions on how to do 
-that here — however, we are working on automatically generating MultiMC instances you can import to easily get 
-set up with Quilt.</p>
+<p>That’s all there is to it! Once you’ve followed these steps, your instance should be ready to go – just add your 
+mods and get playing.</p>
 
 <h1 id="installing-mods">Installing Mods</h1>
 
