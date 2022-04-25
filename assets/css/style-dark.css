@@ -5145,6 +5145,10 @@ span.inline-divider { border: 1px solid transparent; display: inline-block; marg
 
 .button.is-twitter:hover, .button.is-twitter:active { border-color: #0f9bf1; background-color: #0f9bf1; }
 
+.button.is-mastodon { background-color: #3088D4; border-color: #3088D4; color: white; }
+
+.button.is-mastodon:hover, .button.is-mastodon:active { border-color: #2a80cb; background-color: #2a80cb; }
+
 .button.is-gradle { background-color: #28B3C7; border-color: #28B3C7; color: white; }
 
 .button.is-gradle:hover, .button.is-gradle:active { border-color: #25a8ba; background-color: #25a8ba; }
