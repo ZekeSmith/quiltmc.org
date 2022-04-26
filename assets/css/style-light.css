@@ -5043,6 +5043,8 @@ article.with-divider.blog-post:not(:last-child) { border-bottom: 1px solid black
 
 span.inline-divider { border: 1px solid transparent; display: inline-block; margin-top: 1rem; margin-left: 0.5rem; margin-right: 0.5rem; padding-bottom: 1rem; width: 1px; }
 
+.max-width-50 { max-width: 50rem; }
+
 .card.admin, .message.admin { border: 0.1rem solid #e5aa01; background: #ffebb3; }
 
 .card.admin .system-members div img, .message.admin .system-members div img { border: 1px solid #e5aa01; }
