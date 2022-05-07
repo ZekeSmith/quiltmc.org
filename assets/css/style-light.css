@@ -4921,6 +4921,8 @@ a.has-text-pink-dark:hover, a.has-text-pink-dark:focus { color: #de35df !importa
 
 .button-grid > * { margin: 0.4rem !important; }
 
+.button-grid + .button-grid { margin-top: -0.8rem; }
+
 div.highlighter-rouge:not(:first-child) { margin-top: 1.5rem; }
 
 div.highlighter-rouge:not(:last-child) { margin-bottom: 1.5rem; }
