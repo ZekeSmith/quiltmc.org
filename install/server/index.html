@@ -538,16 +538,19 @@ sure you’ve <a href="https://java.com/en/download/">installed Java</a>.</p>
   <li>Select the version of Minecraft you wish to install Quilt for</li>
   <li>Select the version of the Quilt loader you’d like to use</li>
   <li>Select the location you’d like to install the server to</li>
-  <li>Check the <strong>Download server jar</strong> and <strong>Generate launch script</strong> boxes</li>
+  <li>Check the <strong>Download server jar</strong> box</li>
   <li>Click the <strong>Install</strong> button</li>
 </ol>
 
 <p>This will download a copy of the Minecraft server to the location you specified, and install Quilt to it, providing a 
-launcher JAR to start the server with. It’ll also create a set of scripts you can use to launch the server - a <code class="language-plaintext highlighter-rouge">.bat</code> 
-script for Windows and a <code class="language-plaintext highlighter-rouge">.sh</code> script for Mac and Linux.</p>
+launcher JAR to start the server with. Once that’s done, create a <code class="language-plaintext highlighter-rouge">.bat</code> (for Windows) or <code class="language-plaintext highlighter-rouge">.sh</code> (for Mac/Linux) file,
+with the following contents:</p>
 
-<p>That’s all there is to it - use the corresponding launch script to start the server for the first time, then stop it
-and set it up as you normally would.</p>
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>java <span class="nt">-jar</span> quilt-server-launch.jar nogui
+</code></pre></div></div>
+
+<p>That’s all there is to it - use the corresponding <code class="language-plaintext highlighter-rouge">.bat</code> or <code class="language-plaintext highlighter-rouge">.sh</code> file to start the server for the first time, then 
+stop it (with <code class="language-plaintext highlighter-rouge">/stop</code> or <code class="language-plaintext highlighter-rouge">ctrl+c</code>) and set it up as you normally would.</p>
 
 <h2 id="cli-installation">CLI Installation</h2>
 
@@ -556,16 +559,18 @@ and set it up as you normally would.</p>
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>java <span class="nt">-jar</span> quilt-installer-INSTALLER_VERSION.jar <span class="se">\</span>
   <span class="nb">install </span>server MINECRAFT_VERSION <span class="se">\</span>
-  <span class="nt">--download-server</span> <span class="se">\</span>
-  <span class="nt">--create-scripts</span>
+  <span class="nt">--download-server</span>
 </code></pre></div></div>
 
 <p>This will download a copy of the Minecraft server to <code class="language-plaintext highlighter-rouge">server/</code> and install Quilt to it, providing a launcher JAR to
-start the server with. It’ll also create a set of scripts you can use to launch the server - a <code class="language-plaintext highlighter-rouge">.bat</code> script for
-Windows and a <code class="language-plaintext highlighter-rouge">.sh</code> script for Mac and Linux.</p>
+start the server with. Once that’s done, create a <code class="language-plaintext highlighter-rouge">.bat</code> (for Windows) or <code class="language-plaintext highlighter-rouge">.sh</code> (for Mac/Linux) file, with the 
+following contents:</p>
 
-<p>That’s all there is to it - use the corresponding launch script to start the server for the first time, then stop it
-and set it up as you normally would.</p>
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>java <span class="nt">-jar</span> quilt-server-launch.jar nogui
+</code></pre></div></div>
+
+<p>That’s all there is to it - use the corresponding <code class="language-plaintext highlighter-rouge">.bat</code> or <code class="language-plaintext highlighter-rouge">.sh</code> file to start the server for the first time, then
+stop it (with <code class="language-plaintext highlighter-rouge">/stop</code> or <code class="language-plaintext highlighter-rouge">ctrl+c</code>) and set it up as you normally would.</p>
 
 <h1 id="installing-mods">Installing Mods</h1>
 
