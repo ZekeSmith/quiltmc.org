@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.bunny.net/css?family=Roboto" rel="stylesheet">
     <link href="/assets/css/style.css" rel="stylesheet">
 
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
@@ -453,9 +453,13 @@
                 if (entry) {
                     document.getElementById("title").scrollIntoView()
 
+                    const body = entry.body
+                        .replaceAll("​", "")
+                        .replaceAll("<p></p>", "")
+
                     // Replace title, body and image url with the selected version
                     document.getElementById("title").innerText = entry.title;
-                    document.getElementById("body").innerHTML = entry.body;
+                    document.getElementById("body").innerHTML = body;
                     document.getElementById("image").setAttribute("src", "https://launchercontent.mojang.com" + entry.image.url);
 
                     for (let elem of document.getElementsByClassName("version-item is-active")) {
