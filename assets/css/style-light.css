@@ -5047,6 +5047,10 @@ span.inline-divider { border: 1px solid transparent; display: inline-block; marg
 
 .max-width-50 { max-width: 50rem; }
 
+body > * { transition: all 1s ease; }
+
+#theme-normal-contrast, #theme-low-contrast { display: none; }
+
 .card.admin, .message.admin { border: 0.1rem solid #e5aa01; background: #ffebb3; }
 
 .card.admin .system-members div img, .message.admin .system-members div img { border: 1px solid #e5aa01; }
