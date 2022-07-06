@@ -1,6 +1,6 @@
-@import url("https://fonts.bunny.net/css2?family=IBM+Plex+Mono:wght@400&display=swap");
-@import url("https://fonts.bunny.net/css2?family=Poppins:wght@500;700&display=swap");
-@import url("https://fonts.bunny.net/css2?family=IBM+Plex+Mono:wght@400&display=swap");
+@import url("https://fonts.bunny.net/css?family=IBM+Plex+Mono:400&display=swap");
+@import url("https://fonts.bunny.net/css?family=Poppins:500,700&display=swap");
+@import url("https://fonts.bunny.net/css?family=IBM+Plex+Mono:400&display=swap");
 .timeline { display: flex; flex-direction: column; }
 
 .timeline .timeline-header { width: 4em; min-width: 4em; max-width: 8em; word-wrap: normal; text-align: center; display: flex; justify-content: center; }
