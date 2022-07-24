@@ -5930,6 +5930,8 @@ body[data-contrast=low] #theme-normal-contrast { display: none; }
 /* For the low-contrast peeps out there, we'll do some filtering. Best we can do for now. */
 @media (prefers-contrast: less) { body > * { filter: opacity(70%) contrast(90%) saturate(90%); } #theme-normal-contrast, #theme-low-contrast { display: none !important; } }
 
+#theme-switcher { display: flex; }
+
 .highlight pre { background-color: #272822; }
 
 .highlight .hll { background-color: #272822; }

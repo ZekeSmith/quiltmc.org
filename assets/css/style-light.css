@@ -5199,6 +5199,8 @@ a.notification { color: black; }
 
 span.inline-divider { background-color: #dbdbdb; border-color: #dbdbdb; }
 
+#theme-switcher { display: none; }
+
 .highlight .hll { background-color: #ffffcc; }
 
 .highlight .c { color: #606060; font-style: italic; }
