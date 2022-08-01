@@ -128,7 +128,9 @@
 
 
 
+
 <body class="page preload">
+
 
 
 
@@ -160,13 +162,17 @@
             <span class="ml-2">QuiltMC</span>
         </a>
 
+        <a class="navbar-item px-2 has-tooltip-arrow has-tooltip-bottom" style="display: none" id="language-switcher" data-tooltip="Switch Language">
+            <i class="fak fa-language fa-2xl"></i>
+        </a>
+
         <a class="navbar-item px-2 has-tooltip-arrow has-tooltip-bottom" id="theme-switcher" data-tooltip="Toggle Low Contrast">
             <span id="theme-normal-contrast">
-                <i class="fas fa-circle-half-stroke"></i>
+                <i class="fas fa-circle-half-stroke fa-xl"></i>
             </span>
 
             <span id="theme-low-contrast">
-                <i class="fal fa-circle-half-stroke"></i>
+                <i class="fal fa-circle-half-stroke fa-xl"></i>
             </span>
         </a>
 
@@ -565,7 +571,7 @@
                         More Pages
                     </span>
                     <span class="icon is-hidden-mobile is-hidden-tablet-only">
-                        <i class="fas fa-ellipsis-v"></i>
+                        <i class="fas fa-ellipsis-v fa-xl"></i>
                     </span>
                 </a>
 
@@ -1049,6 +1055,23 @@ so we can always use more help!</p>
         </div>
     </div>
 </footer>
+
+<div class="modal" id="language-modal">
+    <div class="modal-background" id="language-modal-background" data-action="click->languages#hide"></div>
+
+    <div class="modal-content">
+        <section class="box">
+            We're not quite ready for this to be used just yet, but stay tuned!
+        </section>
+
+        <div class="is-flex is-flex-direction-row mt-3">
+            <a class="button is-primary" id="language-modal-close-button" aria-label="close" data-action="click->languages#hide">
+                <span class="icon"><i class="fas fa-x"></i></span>
+                <span>Close</span>
+            </a>
+        </div>
+    </div>
+</div>
 
 
 <script src="/assets/js/bundle.js"></script>

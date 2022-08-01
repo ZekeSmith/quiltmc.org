@@ -2842,13 +2842,13 @@ a.dropdown-item.is-active, button.dropdown-item.is-active { background-color: #2
 
 .modal.is-active { display: flex; }
 
-.modal-background { background-color: rgba(255, 255, 255, 0.86); }
+.modal-background { background-color: rgba(0, 0, 0, 0.86); }
 
 .modal-content, .modal-card { margin: 0 20px; max-height: calc(100vh - 160px); overflow: auto; position: relative; width: 100%; }
 
 @media screen and (min-width: 769px) { .modal-content, .modal-card { margin: 0 auto; max-height: calc(100vh - 40px); width: 640px; } }
 
-.modal-close { background: none; height: 40px; position: fixed; left: 20px; top: 20px; width: 40px; }
+.modal-close { background: none; height: 80px; position: fixed; left: 20px; top: 20px; width: 80px; }
 
 .modal-card { display: flex; flex-direction: column; max-height: calc(100vh - 40px); overflow: hidden; -ms-overflow-y: visible; }
 
@@ -5975,6 +5975,8 @@ body[data-contrast=low] #theme-normal-contrast { display: none; }
 @media (prefers-contrast: less) { body > * { filter: opacity(70%) contrast(90%) saturate(90%); } #theme-normal-contrast, #theme-low-contrast { display: none !important; } }
 
 #theme-switcher { display: flex; }
+
+.modal-close::before, .modal-close::after { background-color: white; }
 
 .highlight pre { background-color: #272822; }
 
