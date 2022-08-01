@@ -741,6 +741,10 @@ span.has-tooltip-pink[data-tooltip] { border-bottom-color: #e03fe0; }
 
 .control span[data-tooltip] { border-bottom: none; }
 
+.timeline .timeline-item .timeline-marker.is-icon { padding: 1.5rem; background-color: #e1c0ff; }
+
+.timeline-item .is-icon + .timeline-content .heading { margin-top: 1.2rem; }
+
 /*! bulma.io v0.9.4 | MIT License | github.com/jgthms/bulma */
 /* Bulma Utilities */
 .pagination-previous, .pagination-next, .pagination-link, .pagination-ellipsis, .file-cta, .file-name, .select select, .textarea, .input, .button { -moz-appearance: none; -webkit-appearance: none; align-items: center; border: 1px solid transparent; border-radius: 4px; box-shadow: none; display: inline-flex; font-size: 1rem; height: 2.5em; justify-content: flex-start; line-height: 1.5; padding-bottom: calc(0.5em - 1px); padding-left: calc(0.75em - 1px); padding-right: calc(0.75em - 1px); padding-top: calc(0.5em - 1px); position: relative; vertical-align: top; }
@@ -1495,7 +1499,7 @@ a.box:active { box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.2), 0 0 0 1px #229
 
 .content h6 { font-size: 1em; margin-bottom: 1em; }
 
-.content blockquote { background-color: #f9f3ff; border-left: 5px solid #9722FF; padding: 1.25em 1.5em; }
+.content blockquote { background-color: #f9f3ff; border-left: 5px solid #dbdbdb; padding: 1.25em 1.5em; }
 
 .content ol { list-style-position: outside; margin-left: 2em; margin-top: 1em; }
 
@@ -4941,7 +4945,7 @@ figure.highlight td { padding: 0 !important; }
 
 .message details summary span { font-family: Poppins, sans-serif; font-size: 28px; font-weight: 600; }
 
-.message details summary svg { height: 1.5rem; margin-right: 0.5rem; margin-bottom: 0.1rem; }
+.message details summary svg { height: 1.5rem; margin-bottom: 0.1rem; margin-right: 0.5rem; }
 
 .message details summary .summary-icon { transform: rotate(0); transform-origin: center; transition: .25s transform ease; }
 
@@ -5061,6 +5065,20 @@ body > * { transition: all 1s ease; }
 
 body { /* Use CSS grid */ display: grid; /* Configure three rows, corresponding to the header, main content, and footer Header and footer are sized to fit, main content fills up the rest of free space */ grid-template-rows: fit-content(100%) 1fr fit-content(100%); /* Force minimum height of document body to be the viewport height */ min-height: 100vh; }
 
+.navbar .navbar-brand .navbar-logo { padding-right: 3em; }
+
+.navbar .navbar-brand .navbar-logo img { margin-right: 0.5em; }
+
+.patchnotes-image { float: right; margin-left: 2em; }
+
+.heading-with-button { display: flex; flex-direction: row; }
+
+.heading-with-button h1, .heading-with-button h2, .heading-with-button h3, .heading-with-button h4, .heading-with-button h5, .heading-with-button h6 { flex-grow: 1; }
+
+.heading-with-button .button, .heading-with-button button { flex-shrink: 1; }
+
+.is-rtl { display: none !important; }
+
 .card.admin, .message.admin { border: 0.1rem solid #e5aa01; background: #ffebb3; }
 
 .card.admin .system-members div img, .message.admin .system-members div img { border: 1px solid #e5aa01; }
@@ -5172,12 +5190,6 @@ body { /* Use CSS grid */ display: grid; /* Configure three rows, corresponding 
 .card.is-team-member .card-content .avatar { position: absolute; top: -3.5rem; left: 0; display: flex; justify-content: center; width: 100%; }
 
 .card.is-team-member .card-content .avatar img { display: inline-block; height: 7rem; width: 7rem; background-color: #f9f3ff; border-radius: 100%; border: 2px solid #4a4a4a; }
-
-.timeline .timeline-item .timeline-marker.is-icon { height: 3rem; width: 3rem; background-color: #e1c0ff; }
-
-.timeline .timeline-item .timeline-marker.is-icon > svg { height: 1.5rem; }
-
-.timeline-item .is-icon + .timeline-content .heading { margin-top: 1.2rem; }
 
 .button.is-discord { background-color: #5865F2; border-color: #5865F2; color: #FEFCFF; }
 

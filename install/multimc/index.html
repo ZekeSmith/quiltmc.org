@@ -1,5 +1,11 @@
 <!DOCTYPE html>
-<html lang="en-us">
+
+
+
+
+
+
+<html lang="en" >
 
 <head>
     <meta charset="utf-8">
@@ -7,7 +13,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link href="https://fonts.bunny.net/css?family=Roboto" rel="stylesheet">
-    <link href="/assets/css/style.css" rel="stylesheet">
+
+    
+        <link href="/assets/css/style.css" rel="stylesheet">
+    
 
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
@@ -23,7 +32,7 @@
 <meta name="generator" content="Jekyll v4.2.1" />
 <meta property="og:title" content="Install: MultiMC" />
 <meta name="author" content="QuiltMC" />
-<meta property="og:locale" content="en_US" />
+<meta property="og:locale" content="en" />
 <meta name="description" content="The mod-loader that cares." />
 <meta property="og:description" content="The mod-loader that cares." />
 <link rel="canonical" href="https://quiltmc.org/install/multimc/" />
@@ -36,7 +45,7 @@
 <meta name="twitter:site" content="@quilt_mc" />
 <meta name="twitter:creator" content="@QuiltMC" />
 <script type="application/ld+json">
-{"author":{"@type":"Person","name":"QuiltMC"},"description":"The mod-loader that cares.","image":"https://quiltmc.org/assets/img/logo-square.png","url":"https://quiltmc.org/install/multimc/","headline":"Install: MultiMC","@type":"WebPage","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://quiltmc.org/assets/img/logo-square.png"},"name":"QuiltMC"},"@context":"https://schema.org"}</script>
+{"author":{"@type":"Person","name":"QuiltMC"},"description":"The mod-loader that cares.","url":"https://quiltmc.org/install/multimc/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://quiltmc.org/assets/img/logo-square.png"},"name":"QuiltMC"},"@type":"WebPage","image":"https://quiltmc.org/assets/img/logo-square.png","headline":"Install: MultiMC","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -49,7 +58,7 @@
 <body class="page preload">
 <nav class="navbar is-dark" role="navigation" aria-label="main navigation" data-controller="navbar">
     <div class="navbar-brand">
-        <a class="navbar-item pr-6" href="/">
+        <a class="navbar-item navbar-logo" href="/">
             <img src="/assets/img/logo.svg" alt="Quilt Logo" />
 
             <span class="ml-2">QuiltMC</span>
@@ -432,11 +441,17 @@
 <div class='column is-10'>
 <section class="section">
     <main class="content container">
-        <div class="columns">
+        
+
+
+
+
+<div class="columns">
     <div class="column is-5" data-controller="sidebar">
         <div class="is-hidden-tablet">
             <a class="button is-link" href="/install">
                 <span class="icon"><i class="fas fa-arrow-left"></i></span>
+
                 <span>Back</span>
             </a>
 
@@ -451,7 +466,10 @@
 
         <div class="is-hidden-mobile" data-sidebar-target="sidebar" data-scroll-to-top="true">
             <a class="is-hidden-mobile button is-link mb-2" href="/install">
-                <span class="icon"><i class="fas fa-arrow-left"></i></span>
+                
+                    <span class="icon"><i class="fas fa-arrow-left"></i></span>
+                
+
                 <span>Back to list</span>
             </a>
 
@@ -560,7 +578,10 @@
             </div>
         </div>
 
-        <h1 id="multimc-website">MultiMC <a href="https://multimc.org" class="button is-link is-pulled-right"><span class="icon"><i class="fas fa-globe"></i></span><span>Website</span></a></h1>
+        <div class="heading-with-button">
+   <h1>MultiMC</h1>
+   <a href="https://multimc.org" class="button is-link"><span class="icon"><i class="fas fa-globe"></i></span><span>Website</span></a>
+</div>
 
 <p>MultiMC is a launcher with advanced features to allow power users to manage separate instances of Minecraft.
 To set up a Quilt instance with MultiMC, follow these steps:</p>
